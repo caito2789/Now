@@ -1,0 +1,8 @@
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\bin\Release\SMV.Interoperabilidad.BE.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\bin\Release\SMV.Interoperabilidad.BE.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\bin\Release\SMV.Interoperabilidad.BE.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\obj\Release\SMV.Interoperabilidad.BE.Resources.resources
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\obj\Release\SMV.Interoperabilidad.BE.vbproj.GenerateResource.Cache
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\obj\Release\SMV.Interoperabilidad.BE.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\obj\Release\SMV.Interoperabilidad.BE.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.BE\obj\Release\SMV.Interoperabilidad.BE.pdb

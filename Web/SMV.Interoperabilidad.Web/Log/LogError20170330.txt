@@ -1,0 +1,12 @@
+(30/03/2017 12:31:30 p.m.) Message:
+OracleParameter.Value no es válido
+(30/03/2017 12:31:30 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsGradYTitulos.RegistrarLog() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsGradYTitulos.aspx.vb:línea 350
+   en SMV.Interoperabilidad.Web.frmConsGradYTitulos.btnExportarPDF_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsGradYTitulos.aspx.vb:línea 61
+----------------------------------------------------------------------------
+(30/03/2017 06:54:59 p.m.) Message:
+Referencia a objeto no establecida como instancia de un objeto.
+(30/03/2017 06:54:59 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmVerAsiento.CargarDatos() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 40
+   en SMV.Interoperabilidad.Web.frmVerAsiento.Page_Load(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 12
+----------------------------------------------------------------------------

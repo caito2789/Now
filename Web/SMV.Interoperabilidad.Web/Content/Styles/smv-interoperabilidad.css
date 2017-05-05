@@ -1,0 +1,904 @@
+/* Estilos personalizados  */
+
+.PopDetSalida {
+    width: 800px;
+}
+
+.modal-dialog {
+    margin: 15px auto !important;
+    /*width: 600px;*/
+}
+
+#VerexpExterno {
+    text-decoration: underline;
+}
+
+#idPaginas{
+    width: 140px;
+}
+ 
+.checkbox-inline+.checkbox-inline,.radio-inline+.radio-inline {
+     margin-top:0;
+     margin-left:0px;
+}
+ 
+.nemonico {
+    width: 53px;
+    text-align:center;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 10px !important;
+}
+
+.table thead {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 10px !important;
+    font-weight:bold;
+    text-transform:uppercase;
+    background-color:#bedaf9;
+    color:#000;    
+}
+
+.table thead a {
+    color:#000;
+}
+
+.table thead a:hover {
+    color:#436eb3;
+}
+    
+.table-hover > tbody > tr:hover {
+    background-color: #E7ECF3;
+}	
+	
+.add-on {
+    margin-top: -30px;
+}
+
+.add-on .btn {
+    padding: 4px 7px;
+}
+
+.input-append.date .add-on i, .input-prepend.date .add-on i, .input-group.date .input-group-addon span {
+    width: 9px;
+    height: 16px;    
+}
+
+#left-menu {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-right: 5px;
+}
+
+/******OCULTA-MENUH******/
+.ico_ocultar {
+    cursor: pointer;
+    width: 24px;
+    background: url('images/ico-antes.png') no-repeat left 50%;
+}
+
+.ico_mostrar
+{
+    cursor: pointer;
+    width: 24px;
+    background: url('images/ico-despues.png') no-repeat left 50%;
+}
+
+/******FORMULARIO FLOTANTE******/
+.row {
+    margin-bottom:0px;
+}
+    
+.calendario {
+    width:93%;
+}
+
+/* //  Inicio de Clases para Menú de Nivel 2 */
+
+.menu_cabecera {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #466589;
+	/*width:200px;*/
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	vertical-align:middle;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.mainMenu a{
+	display: block;
+	padding: 5px 0px 5px 0px;
+	border-bottom:1px solid #E3E3E3;
+	border-top:1px solid #FFF;
+	/*width:200px;*/
+	text-decoration: none;
+	font-weight:normal;	
+}
+
+.mainMenu a:link, .mainMenu a:visited{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor: pointer;  
+	background: #6b8fb3;
+	text-align: left;
+	/*height: 17px;*/
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 1px 0 2px 15px;
+	display:block;
+	/*width:195px;*/
+	border-bottom: solid 1px #FFFFFF;
+	vertical-align:top;
+	font-size: 10px;
+	overflow:hidden;
+}
+
+.mainMenu a:hover{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor: pointer;  
+	background: #96afc9;
+	text-align: left;
+	/*height: 17px;*/
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 1px 0 2px 15px;
+	display:block;
+	/*width:195px;*/
+	border-bottom: solid 1px #FFFFFF;
+	vertical-align:top;
+	font-size: 10px;
+	overflow:hidden;
+}
+
+.mainMenu_activo a:link, .mainMenu_activo a:visited, .mainMenu_activo a:hover{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor: pointer;  
+	background: #abc5e0;
+	text-align: left;
+	height: 17px;
+	color: #466589;
+	text-decoration: none;
+	padding: 5px 0 0 15px;
+	display:block;
+	width:195px;
+	border-bottom: solid 1px #FFFFFF;
+	vertical-align:top;
+	font-size: 10px;
+	overflow:hidden;
+	font-weight:bold;
+}
+
+.MenuHijoNivel1 a:link, .MenuHijoNivel1 a:visited{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor: pointer;  
+	background: #6b8fb3;
+	text-align: left;
+	height: 17px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px 0 0 15px;
+	display:block;
+	width:195px;
+	border-bottom: solid 1px #FFFFFF;
+	vertical-align:top;
+	font-size: 10px;
+	overflow:hidden;
+	background-image:url(../images/menu.png);
+	background-repeat: no-repeat ;
+	background-position: 198px;
+}
+
+.MenuHijoNivel1 a:hover{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor: pointer;  
+	background: #97b0ca;
+	text-align: left;
+	height: 17px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px 0 0 15px;
+	display:block;
+	width:195px;
+	border-bottom: solid 1px #FFFFFF;
+	vertical-align:top;
+	font-size: 10px;
+	overflow:hidden;
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	background-position: 198px;
+}
+
+.MenuHijoNivel1_activo a:link, .MenuHijoNivel1_activo a:visited, .MenuHijoNivel1_activo a:hover{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor: pointer;  
+	background: #97b0ca;
+	text-align: left;
+	height: 17px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px 0 0 15px;
+	display:block;
+	width:195px;
+	border-bottom: solid 1px #FFFFFF;
+	vertical-align:top;
+	font-size: 10px;
+	overflow:hidden;
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	background-position: 198px;
+}
+
+/* //  Fin de Clases para Menú de Nivel 2 */
+
+/* //  Inicio de Clases para Menú de Nivel 3 - Sin hijos */
+
+.subMenu a:link, .subMenu a:visited{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	color: #264974;
+	text-decoration: none;
+	cursor: pointer;  
+	background-color: #cbd9e7;
+	text-align: left;
+	height: 17px;
+	text-decoration: none;
+	border-bottom: solid 1px #FFFFFF;
+	padding: 5px 0 0 25px;
+	display:block;
+	width:185px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	overflow:hidden;
+	background-image:none;
+}
+
+.subMenu a:hover{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	color: #de9d03;
+	text-decoration: none;
+	cursor: pointer;  
+	background-color: #cbd9e7;
+	text-align: left;
+	height: 17px;
+	text-decoration: none;
+	border-bottom: solid 1px #FFFFFF;
+	padding: 5px 0 0 25px;
+	display:block;
+	width:185px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	overflow:hidden;
+	background-image:none;
+}
+
+.subMenu_activo a:link, .subMenu_activo a:visited, .subMenu_activo a:hover
+{
+	color: #de9d03;
+	text-decoration: none;
+	cursor: pointer;  
+	background-color: #e2f1fe;
+	text-align: left;
+	height: 17px;
+	text-decoration: none;
+	border-bottom: solid 1px #FFFFFF;
+	padding: 5px 0 0 25px;
+	display:block;
+	width:185px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	overflow:hidden;
+	background-image:none;
+	font-weight:bold;
+}
+
+/* //  Fin de Clases para Menú de Nivel 3 - Sin hijos */
+
+
+/* //  Inicio de Clases para Menú de Nivel 3 - Con hijos */
+
+.MenuHijoNivel2 a:link, .MenuHijoNivel2 a:visited{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	color: #264974;
+	text-decoration: none;
+	cursor: pointer;  
+	background-color: #cbd9e7;
+	text-align: left;
+	height: 17px;
+	text-decoration: none;
+	border-bottom: solid 1px #FFFFFF;
+	padding: 5px 0 0 25px;
+	display:block;
+	width:185px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	overflow:hidden;
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	background-position: 198px;
+}
+
+.MenuHijoNivel2 a:hover{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	color: #de9d03;
+	text-decoration: none;
+	cursor: pointer;  
+	background-color: #cbd9e7;
+	text-align: left;
+	height: 17px;
+	text-decoration: none;
+	border-bottom: solid 1px #FFFFFF;
+	padding: 5px 0 0 25px;
+	display:block;
+	width:185px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	overflow:hidden;
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	background-position: 198px;
+}
+
+.MenuHijoNivel2_activo a:hover, .MenuHijoNivel2_activo a:link, .MenuHijoNivel2_activo a:visited
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	color: #de9d03;
+	text-decoration: none;
+	cursor: pointer;  
+	background-color: #cbd9e7;
+	text-align: left;
+	height: 17px;
+	text-decoration: none;
+	border-bottom: solid 1px #FFFFFF;
+	padding: 5px 0 0 25px;
+	display:block;
+	width:185px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 10px;
+	overflow:hidden;
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	background-position: 198px;
+}
+
+/* //  Fin de Clases para Menú de Nivel 3 - Con hijos */
+
+#div_carga{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+	background: url(../Images/ico-load.gif) repeat;
+	display:none;
+	z-index:1;
+}
+
+#cargador{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.divScroll {
+    background: #fff none repeat scroll 0 0;
+    /*border: 1px solid #666;*/
+    margin: 0px;
+    padding: 5px;
+    position: static;
+    width:100%;
+    height: 550px;
+    overflow-y: auto;
+}
+  
+.divScrollComent {
+    background: #fff none repeat scroll 0 0;
+    /*border: 1px solid #666;*/
+    margin: 0px;
+    padding: 5px;
+    position: static;
+    width:100%;
+    height: 170px;
+    overflow-y: auto;
+}
+  
+/*Color de fondo para la paginación*/
+ 
+.gridViewPaginacion td {
+    background-color:#fff;
+    font-size:11px;
+}
+ 
+/*Bordes redondeados para la paginacion*/
+ 
+.gridViewPaginacion > td{
+    border-radius:0px 0px 2px 2px;
+    text-align:right;
+
+}
+ 
+/*Centramos la tabla que contiene los enlaces para las paginas*/
+ 
+.gridViewPaginacion table {
+    margin:2px auto;
+    float:right;
+}
+ 
+/*El span representa el enlace a la pagina en la que estamos actualmente*/
+ 
+.gridViewPaginacion span {
+    display:block;
+    margin:0;
+    padding:5px 8px;
+    width:27px;
+    height:27px;
+    border-radius:5% 20%;
+    background:#eee;
+    color:#797979;
+    border: 1px solid #ddd;
+}
+ 
+/*Estilo para los enlaces redondos*/
+ 
+.gridViewPaginacion a {
+    display: inline-block;
+    text-decoration:none;
+    margin:0px;
+    padding:4px 9px;
+    /*width:27px;*/
+    height:27px;
+    border-radius: 5% 20%;
+    background:#fff;
+    color:#797979;
+    border: 1px solid #ddd;
+}
+ 
+.gridViewPaginacion a:hover {
+    display:block;
+    margin:0;
+    padding:4px 9px;
+    /*width:27px;*/
+    height:27px;
+    border-radius:5% 10%;
+    background:#eee;
+    color:#797979;
+    /*box-shadow: 0 0 .5em rgba(0, 0, 0, .8);*/
+}        
+
+table.display td {
+    padding: 1px 2px !important;
+    /*text-align:left !important;*/
+}
+        
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 1px 4px;
+    vertical-align: middle !important;
+    /*text-align:left;*/
+}
+
+img.pequenia{
+    width: 100px; 
+    height: 48px;
+}
+        
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 3px 6px !important;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+        
+.h4, h4 {
+    font-size: 14px !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.43px !important;
+    padding: 5px 8px;
+}
+
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 3px !important;
+    text-align: right;
+}
+
+.modal-body {
+    padding: 8px !important;
+    position: relative;
+}        
+
+.modal-lg {
+    width: 75%;
+}
+
+.m-bot15 {
+    margin-bottom: 4px !important;
+}
+
+.form-control {
+    height: 27px !important;
+    padding: 5px 1px 5px 1px !important;
+    text-transform:uppercase;
+}
+
+textarea.form-control {
+    height: auto !important;
+    padding: 5px 1px 5px 1px !important;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #ddd !important;
+    cursor: not-allowed;
+    opacity: 1;
+}
+.nav > li > a {
+    display: block;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #176CD4 !important;
+}
+.navbar {
+    /*border: 1px solid transparent;*/
+    margin-bottom: 0px !important;
+    min-height: 0px !important;
+    position: relative;
+}
+
+.navbar-default {
+     background-color: #fff !important; 
+    border-color: #e7e7e7 !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #d4dbde;
+    border-color: #ddd #ddd transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #000;
+    cursor: default;
+}
+
+.datepicker {
+    border-radius: 4px;
+    left: 0;
+    margin-top: 24px !important;
+    padding: 4px;
+    top: 0;
+    z-index: 1251 !important;
+}
+
+/* Inicio */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------------- Paginas ----------------- */
+
+body {
+   min-width: 400px;      
+   width: auto !important;  /* Firefox will set width as auto */   
+}
+
+.contentParametro {
+    min-width:400px;
+}
+
+.TituloMaster {
+    margin-top:8px; 
+    color:#003366; 
+    text-align:center;
+    font-size: 22px;
+    display:block;
+}
+
+.MnPrincipal {
+    background-color: #FFFFFF;
+}
+
+table.table thead .sorting {
+    background: #f0f7f8 url('../../Content/Images/sort_both.png') no-repeat scroll right center;
+}    
+                      
+#wrapper {
+    width: 1150px;
+    margin: auto;
+}
+            
+#label {
+    width: 140px;
+}
+
+.lblTitulo {
+    color: #ffffff;
+    font-size: 95% !important;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.CentrarBtn {
+    margin: auto auto;
+    width: 50%;
+    display: table;
+    height: 40px;
+    vertical-align: top;
+}
+
+.FilaSeteo {
+    margin-left:0;
+    margin-right:0;
+}
+
+.NomUsuTit {
+    text-align: left;
+    font-weight: bold !important;
+}
+
+.dvBloqueInfo {
+    display: block;
+    background-color: #ddfbe3;
+    border: 1px solid #29ae3c;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 20px;
+}
+
+.dvBloqueIntro {
+    display: block;
+    background-color: #FFFFFF;
+    border: 1px solid #cbd2d4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 20px;
+}
+
+.lblMsjInicio {
+    font-weight: normal;
+    color: #1a1818;
+}
+
+.AltoInicio {
+    height: 30px;
+}
+
+.AlineaCenter {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.error {
+    background-color: #BC1010;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+.error:before { /* Este es un truco para crear una flechita */
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}
+
+.error2 {
+    color: red;
+    font-style: italic;
+}
+
+.TxtFormEnlace {
+   /*font-family: Arial;
+   font-size: 11px;*/
+   font-weight: normal;
+   color: #525455;  
+   background-color:#FFFFFF;
+}
+
+.FrameCarga {
+    border-style:none;
+}
+
+.label {
+    color: #fff;
+    font-size: 95% !important;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Para el border del boton, de caja de texto y boton agrupados */
+.input-group-btn:first-child>.btn {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+/*Menu*/
+.nivelmenu-1 > a {
+    color:#333;
+    line-height:1.4285;
+    line-height:1.4285;
+    padding-top:3px;
+    padding-right:20px;
+    padding-bottom: 3px;
+    padding-left:30px;
+    clear: both;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
+
+.nivelmenu-2 > a {
+    color:#333;
+    line-height:1.4285;
+    line-height:1.4285;
+    padding-top:3px;
+    padding-right:20px;
+    padding-bottom: 3px;
+    padding-left:40px;
+    clear: both;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+}
+
+.nivelmenu-1 > a:hover, .nivelmenu-2 > a:hover {
+    color:#000;
+    background-color: rgb(185, 199, 213);
+}
+
+/* ------------------ Interoperabilidad ------------------- */
+
+.dvFormReniec {
+    min-width: 340px;
+    max-width: 800px;
+}
+
+.dvFormInternoReniec {
+    min-width: 290px;
+    max-width: 70%;
+}
+
+.dvFormINPE {
+    min-width: 340px;
+    max-width: 900px;
+}
+
+.dvFormInternoSunarp {
+    max-width: 70%;
+}
+
+.dvTitFormA {
+    padding-right: 0px;
+}
+
+.dvTitFormB {
+    padding: 0px 0px 10px 0px;
+}
+
+.dvTXTTitForm {
+    font-family: Arial, sans-serif;
+    font-size: 12px !important;
+    font-weight: normal;
+}
+
+.FontTitulo {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.dvBtnFiltro {
+    float:left;
+}
+
+.dvBtnFiltroDer {
+    float:right;
+}
+
+.dvAltoForm {
+    display:block;
+    height:5px;   
+}
+
+.btnTxtBotones {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.dvFooterForm {
+    padding: 10px 0px 0px 0px;
+}
+
+.dvFondoTituloForm {
+    color: #49576a;
+    background: #c7dbf2;    /* Old Browsers */
+    background: -moz-linear-gradient(top, #c7dbf2 0%, #e1ebf8 52%, #dcebfb 100%); /* FF3.6+ */
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #c7dbf2), color-stop(52%, #e1ebf8), color-stop(100%, #dcebfb));/* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top, #c7dbf2 0%, #e1ebf8 52%, #dcebfb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #c7dbf2 0%, #e1ebf8 52%, #dcebfb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #c7dbf2 0%, #e1ebf8 52%, #dcebfb 100%); /* IE 10+ */
+    background: linear-gradient(to bottom, #c7dbf2 0%, #e1ebf8 52%, #dcebfb 100%);/* W3C */
+}
+
+.AlineaTextJust {
+    text-align: justify;
+}
+
+.AlineaTextCenter {
+    text-align: center;
+}
+
+.AlineaTextIzq {
+    text-align: left;
+}
+
+.dvRowVerAsie {
+    display: table-row;
+    padding:0;
+    margin:0;
+}
+
+.AltoVerAsie {
+    height: 5px;
+}
+
+.dvImgArchivo {
+    text-align: center;
+    vertical-align:top;
+}
+
+.trPintalFila {
+    background-color: #F9F9F9;
+}

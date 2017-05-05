@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://controller.pide.sunarp.gob.pe/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soa="http://soa.com/uri/products/wsdlext/1.0" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" targetNamespace="http://controller.pide.sunarp.gob.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema targetNamespace="http://controller.pide.sunarp.gob.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="respuestaTitularidad">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="respuestaTitularidad" nillable="true" type="tns:respuestaTitularidadBean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaTitularidadBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="registro" type="xs:string" />
+          <xs:element minOccurs="0" name="apPaterno" type="xs:string" />
+          <xs:element minOccurs="0" name="apMaterno" type="xs:string" />
+          <xs:element minOccurs="0" name="nombre" type="xs:string" />
+          <xs:element minOccurs="0" name="razonSocial" type="xs:string" />
+          <xs:element minOccurs="0" name="tipoDocumento" type="xs:string" />
+          <xs:element minOccurs="0" name="numeroDocumento" type="xs:string" />
+          <xs:element minOccurs="0" name="numeroPartida" type="xs:string" />
+          <xs:element minOccurs="0" name="numeroPlaca" type="xs:string" />
+          <xs:element minOccurs="0" name="estado" type="xs:string" />
+          <xs:element minOccurs="0" name="zona" type="xs:string" />
+          <xs:element minOccurs="0" name="oficina" type="xs:string" />
+          <xs:element minOccurs="0" name="mensaje" type="xs:string" />
+          <xs:element minOccurs="0" name="direccion" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaPartidaBean">
+        <xs:sequence>
+          <xs:element name="transaccion" type="xs:long" />
+          <xs:element minOccurs="0" name="nroTotalPag" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listAsientos" nillable="true" type="tns:asientosBean" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listFichas" nillable="true" type="tns:fichaBean" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listFolios" nillable="true" type="tns:tomoFolioBean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="asientosBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="idImgAsiento" type="xs:decimal" />
+          <xs:element minOccurs="0" name="numPag" type="xs:decimal" />
+          <xs:element minOccurs="0" name="tipo" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listPag" nillable="true" type="tns:numeroPaginasBean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="numeroPaginasBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="nroPagRef" type="xs:string" />
+          <xs:element minOccurs="0" name="pagina" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="fichaBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="idImgFicha" type="xs:decimal" />
+          <xs:element minOccurs="0" name="numPag" type="xs:decimal" />
+          <xs:element minOccurs="0" name="tipo" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listPag" nillable="true" type="tns:numeroPaginasBean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="tomoFolioBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="idImgFolio" type="xs:decimal" />
+          <xs:element minOccurs="0" name="nroPagRef" type="xs:string" />
+          <xs:element minOccurs="0" name="pagina" type="xs:string" />
+          <xs:element minOccurs="0" name="tipo" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaVehiculoBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="placa" type="xs:string" />
+          <xs:element minOccurs="0" name="serie" type="xs:string" />
+          <xs:element minOccurs="0" name="vin" type="xs:string" />
+          <xs:element minOccurs="0" name="nro_motor" type="xs:string" />
+          <xs:element minOccurs="0" name="color" type="xs:string" />
+          <xs:element minOccurs="0" name="marca" type="xs:string" />
+          <xs:element minOccurs="0" name="modelo" type="xs:string" />
+          <xs:element minOccurs="0" name="estado" type="xs:string" />
+          <xs:element minOccurs="0" name="sede" type="xs:string" />
+          <xs:element minOccurs="0" name="propietarios" type="tns:propietarioBean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="propietarioBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="nombre" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaSolicitudBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="estado" type="xs:string" />
+          <xs:element name="solicitud" type="xs:long" />
+          <xs:element minOccurs="0" name="fecha" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </types>
+  <message name="verDetalleRPVResponse">
+    <part name="vehiculo" type="tns:respuestaVehiculoBean" />
+  </message>
+  <message name="buscarTitularidadResponse">
+    <part name="respuestaTitularidad" type="tns:respuestaTitularidad" />
+  </message>
+  <message name="verAsientoResponse">
+    <part name="img" type="xsd:base64Binary" />
+  </message>
+  <message name="verDetalleRPV">
+    <part name="zona" type="xsd:string" />
+    <part name="oficina" type="xsd:string" />
+    <part name="placa" type="xsd:string" />
+  </message>
+  <message name="buscarTitularidad">
+    <part name="tipoParticipante" type="xsd:string" />
+    <part name="apellidoPaterno" type="xsd:string" />
+    <part name="apellidoMaterno" type="xsd:string" />
+    <part name="nombres" type="xsd:string" />
+    <part name="razonSocial" type="xsd:string" />
+  </message>
+  <message name="generarVigenciaResponse">
+    <part name="datosVigencia" type="tns:respuestaSolicitudBean" />
+  </message>
+  <message name="generarVigencia">
+    <part name="zona" type="xsd:string" />
+    <part name="oficina" type="xsd:string" />
+    <part name="partida" type="xsd:string" />
+    <part name="asiento" type="xsd:string" />
+    <part name="apPaterno" type="xsd:string" />
+    <part name="apMaterno" type="xsd:string" />
+    <part name="nombre" type="xsd:string" />
+    <part name="cargo" type="xsd:string" />
+    <part name="email" type="xsd:string" />
+  </message>
+  <message name="verAsiento">
+    <part name="transaccion" type="xsd:long" />
+    <part name="idImg" type="xsd:long" />
+    <part name="tipo" type="xsd:string" />
+    <part name="nroTotalPag" type="xsd:string" />
+    <part name="nroPagRef" type="xsd:string" />
+    <part name="pagina" type="xsd:string" />
+  </message>
+  <message name="listarAsientosResponse">
+    <part name="asientos" type="tns:respuestaPartidaBean" />
+  </message>
+  <message name="listarAsientos">
+    <part name="zona" type="xsd:string" />
+    <part name="oficina" type="xsd:string" />
+    <part name="partida" type="xsd:string" />
+    <part name="registro" type="xsd:string" />
+  </message>
+  <portType name="PIDEWSService">
+    <operation name="buscarTitularidad" parameterOrder="tipoParticipante apellidoPaterno apellidoMaterno nombres razonSocial">
+      <input wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/buscarTitularidadRequest" message="tns:buscarTitularidad" />
+      <output wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/buscarTitularidadResponse" message="tns:buscarTitularidadResponse" />
+    </operation>
+    <operation name="generarVigencia" parameterOrder="zona oficina partida asiento apPaterno apMaterno nombre cargo email">
+      <input wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/generarVigenciaRequest" message="tns:generarVigencia" />
+      <output wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/generarVigenciaResponse" message="tns:generarVigenciaResponse" />
+    </operation>
+    <operation name="listarAsientos" parameterOrder="zona oficina partida registro">
+      <input wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/listarAsientosRequest" message="tns:listarAsientos" />
+      <output wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/listarAsientosResponse" message="tns:listarAsientosResponse" />
+    </operation>
+    <operation name="verAsiento" parameterOrder="transaccion idImg tipo nroTotalPag nroPagRef pagina">
+      <input wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/verAsientoRequest" message="tns:verAsiento" />
+      <output wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/verAsientoResponse" message="tns:verAsientoResponse" />
+    </operation>
+    <operation name="verDetalleRPV" parameterOrder="zona oficina placa">
+      <input wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/verDetalleRPVRequest" message="tns:verDetalleRPV" />
+      <output wsam:Action="http://controller.pide.sunarp.gob.pe/PIDEWSService/verDetalleRPVResponse" message="tns:verDetalleRPVResponse" />
+    </operation>
+  </portType>
+  <binding name="PIDEWSServicePortBinding" type="tns:PIDEWSService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="buscarTitularidad">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </output>
+    </operation>
+    <operation name="generarVigencia">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </output>
+    </operation>
+    <operation name="listarAsientos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </output>
+    </operation>
+    <operation name="verAsiento">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </output>
+    </operation>
+    <operation name="verDetalleRPV">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://controller.pide.sunarp.gob.pe/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="PideService_vs0">
+    <port name="PIDEWSServicePort" binding="tns:PIDEWSServicePortBinding">
+      <soap:address location="http://10.0.1.112:9951/PIDEWSService" />
+    </port>
+    <port name="PIDEWSServicePortS" binding="tns:PIDEWSServicePortBinding">
+      <soap:address location="https://10.0.1.112:9953/PIDEWSServiceS" />
+    </port>
+  </service>
+</definitions>

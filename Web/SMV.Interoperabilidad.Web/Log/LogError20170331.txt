@@ -1,0 +1,18 @@
+(31/03/2017 10:26:37 a.m.) Message:
+Referencia a objeto no establecida como instancia de un objeto.
+(31/03/2017 10:26:37 a.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmVerAsiento.CargarDatos() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 131
+   en SMV.Interoperabilidad.Web.frmVerAsiento.Page_Load(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 30
+----------------------------------------------------------------------------
+(31/03/2017 10:37:53 a.m.) Message:
+Referencia a objeto no establecida como instancia de un objeto.
+(31/03/2017 10:37:53 a.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmVerAsiento.CargarDatos() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 131
+   en SMV.Interoperabilidad.Web.frmVerAsiento.Page_Load(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 30
+----------------------------------------------------------------------------
+(31/03/2017 11:50:33 a.m.) Message:
+Referencia a objeto no establecida como instancia de un objeto.
+(31/03/2017 11:50:33 a.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmVerAsiento.CargarDatos() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 178
+   en SMV.Interoperabilidad.Web.frmVerAsiento.Page_Load(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmVerAsiento.aspx.vb:línea 30
+----------------------------------------------------------------------------

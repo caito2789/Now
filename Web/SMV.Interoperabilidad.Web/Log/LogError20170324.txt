@@ -1,0 +1,20 @@
+(24/03/2017 05:56:46 p.m.) Message:
+No se puede convertir un objeto de tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SuneduBE]' al tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SunarpBE]'.
+(24/03/2017 05:56:46 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsTituBienes.gvDatos_Sorting(Object sender, GridViewSortEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\SMV.Interoperabilidad.Web\Views\Form\frmConsTituBienes.aspx.vb:línea 63
+----------------------------------------------------------------------------
+(24/03/2017 06:12:00 p.m.) Message:
+No se puede convertir un objeto de tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SuneduBE]' al tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SunarpBE]'.
+(24/03/2017 06:12:00 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsTituBienes.gvDatos_Sorting(Object sender, GridViewSortEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\SMV.Interoperabilidad.Web\Views\Form\frmConsTituBienes.aspx.vb:línea 63
+----------------------------------------------------------------------------
+(24/03/2017 06:15:52 p.m.) Message:
+No se puede convertir un objeto de tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SuneduBE]' al tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SunarpBE]'.
+(24/03/2017 06:15:52 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsTituBienes.gvDatos_Sorting(Object sender, GridViewSortEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\SMV.Interoperabilidad.Web\Views\Form\frmConsTituBienes.aspx.vb:línea 63
+----------------------------------------------------------------------------
+(24/03/2017 06:16:12 p.m.) Message:
+No se puede convertir un objeto de tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SuneduBE]' al tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SunarpBE]'.
+(24/03/2017 06:16:12 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsTituBienes.gvDatos_Sorting(Object sender, GridViewSortEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\SMV.Interoperabilidad.Web\Views\Form\frmConsTituBienes.aspx.vb:línea 63
+----------------------------------------------------------------------------

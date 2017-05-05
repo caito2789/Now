@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMV.Interoperabilidad.BL
+</name>
+</assembly>
+<members>
+<member name="M:SMV.Interoperabilidad.BL.UsuarioBL.GeneraPasswordHash(System.String)">
+	<summary>
+ Nombre de Metodo:       GeneraPasswordHash
+ Autor:                  Herbert Sandoval Pacheco
+ Fecha de Creacion:      22/05/2013 
+ Descripcion:            Metodo que retorna el HASH de una cadena
+ Parametros de Entrada:  pClave  --&gt; Cadena, clave a convertir a HASH SH256
+ Parametros de Salida:           --&gt; Cadena, clave ya formateado al tipo de HASH
+ </summary>
+	<param name="pClave"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMV.Interoperabilidad.BL.SunarpBL.RegistrarLog_VP(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Vigencia de Poder.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMV.Interoperabilidad.BL.SunarpBL.RegistrarLog_TB(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Titularidad de Bienes de consulta.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMV.Interoperabilidad.BL.SunarpBL.RegistrarLog_LA(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Lista de Asientos.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMV.Interoperabilidad.BL.SunarpBL.RegistrarLog_VImg(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Ver Asiento.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMV.Interoperabilidad.BL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMV.Interoperabilidad.BL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMV.Interoperabilidad.BL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

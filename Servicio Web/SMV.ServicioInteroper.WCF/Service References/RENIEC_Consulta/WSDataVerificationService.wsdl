@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://WSDataVerification_wsdl.wsauth.reniec.gob.pe/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="WSDataVerificationService" targetNamespace="http://WSDataVerification_wsdl.wsauth.reniec.gob.pe/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://WSDataVerification_wsdl.wsauth.reniec.gob.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getDatavalidate" type="tns:getDatavalidate" />
+      <xs:element name="getDatavalidateResponse" type="tns:getDatavalidateResponse" />
+      <xs:complexType name="getDatavalidate">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="xmlDocumento" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDatavalidateResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getDatavalidateResponse">
+    <wsdl:part name="parameters" element="tns:getDatavalidateResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDatavalidate">
+    <wsdl:part name="parameters" element="tns:getDatavalidate" />
+  </wsdl:message>
+  <wsdl:portType name="WSDataVerification">
+    <wsdl:operation name="getDatavalidate">
+      <wsdl:input name="getDatavalidate" message="tns:getDatavalidate" />
+      <wsdl:output name="getDatavalidateResponse" message="tns:getDatavalidateResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSDataVerificationServiceSoapBinding" type="tns:WSDataVerification">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getDatavalidate">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getDatavalidate">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDatavalidateResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSDataVerificationService">
+    <wsdl:port name="WSDataVerificationPort" binding="tns:WSDataVerificationServiceSoapBinding">
+      <soap:address location="http://localhost:8080/reniec/WSDataVerificationBinding" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

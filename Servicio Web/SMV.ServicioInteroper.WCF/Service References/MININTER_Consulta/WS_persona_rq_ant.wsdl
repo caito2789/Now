@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.mi.com/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soa="http://soa.com/uri/products/wsdlext/1.0" targetNamespace="http://ws.mi.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema targetNamespace="http://ws.mi.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="consultaDniGeneral" type="tns:consultaDniGeneral" />
+      <xs:element name="consultaDniGeneralResponse" type="tns:consultaDniGeneralResponse" />
+      <xs:element name="consultaNombreGeneral" type="tns:consultaNombreGeneral" />
+      <xs:element name="consultaNombreGeneralResponse" type="tns:consultaNombreGeneralResponse" />
+      <xs:complexType name="consultaDniGeneral">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="vUsuario" type="xs:string" />
+          <xs:element minOccurs="0" name="vClave" type="xs:string" />
+          <xs:element minOccurs="0" name="vDNI" type="xs:string" />
+          <xs:element minOccurs="0" name="vEntidadconsulta" type="xs:string" />
+          <xs:element minOccurs="0" name="vDNIconsulta" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="consultaDniGeneralResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="consultaNombreGeneral">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="vUsuario" type="xs:string" />
+          <xs:element minOccurs="0" name="vClave" type="xs:string" />
+          <xs:element minOccurs="0" name="vNom" type="xs:string" />
+          <xs:element minOccurs="0" name="vApe_p" type="xs:string" />
+          <xs:element minOccurs="0" name="vApe_m" type="xs:string" />
+          <xs:element minOccurs="0" name="vEntidadconsulta" type="xs:string" />
+          <xs:element minOccurs="0" name="vDNIconsulta" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="consultaNombreGeneralResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </types>
+  <message name="consultaDniGeneralResponse">
+    <part name="parameters" element="tns:consultaDniGeneralResponse" />
+  </message>
+  <message name="consultaDniGeneral">
+    <part name="parameters" element="tns:consultaDniGeneral" />
+  </message>
+  <message name="consultaNombreGeneral">
+    <part name="parameters" element="tns:consultaNombreGeneral" />
+  </message>
+  <message name="consultaNombreGeneralResponse">
+    <part name="parameters" element="tns:consultaNombreGeneralResponse" />
+  </message>
+  <portType name="WS_persona_rq_ant">
+    <operation name="consultaDniGeneral">
+      <input message="tns:consultaDniGeneral" />
+      <output message="tns:consultaDniGeneralResponse" />
+    </operation>
+    <operation name="consultaNombreGeneral">
+      <input message="tns:consultaNombreGeneral" />
+      <output message="tns:consultaNombreGeneralResponse" />
+    </operation>
+  </portType>
+  <binding name="WS_persona_rq_antPortBinding" type="tns:WS_persona_rq_ant">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="consultaDniGeneral">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="consultaNombreGeneral">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="wsAntecedentesFlag_vs0">
+    <port name="WS_persona_rq_antPort" binding="tns:WS_persona_rq_antPortBinding">
+      <soap:address location="http://10.0.1.112:9951/WS_persona_rq_ant" />
+    </port>
+    <port name="WS_persona_rq_antPortS" binding="tns:WS_persona_rq_antPortBinding">
+      <soap:address location="https://10.0.1.112:9953/WS_persona_rq_antS" />
+    </port>
+  </service>
+</definitions>

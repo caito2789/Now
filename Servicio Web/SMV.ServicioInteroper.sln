@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Entidades", "1. Entidades", "{60729B85-2761-4DF3-97D4-E8F8C38539F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Acceso a Datos", "2. Acceso a Datos", "{B362E842-A1F8-463D-B543-43F96A78068F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Logica", "3. Logica", "{CDCC7620-DBFD-4B1F-A19B-FF141C87B53F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio Web", "Servicio Web", "{AE61E302-7684-46B3-B85A-A702037B7B11}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.ServicioInteroper.BE", "SMV.ServicioInteroper.BE\SMV.ServicioInteroper.BE.vbproj", "{DBC4D4DA-4CA2-4744-A04C-7B6EDD2B8D56}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.ServicioInteroper.DA", "SMV.ServicioInteroper.DA\SMV.ServicioInteroper.DA.vbproj", "{6FCD7DD0-9575-4638-928D-3F3EDA016E4A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.ServicioInteroper.BL", "SMV.ServicioInteroper.BL\SMV.ServicioInteroper.BL.vbproj", "{25D94ADD-CFD8-491A-8863-B2706D0A5BBB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.ServicioInteroper.WCF", "SMV.ServicioInteroper.WCF\SMV.ServicioInteroper.WCF.vbproj", "{EF538D34-4F13-4EF1-84F7-5A24EA199A5F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hp062481:8080/tfs/swf_tgsc
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SMV.ServicioInteroper.BE\\SMV.ServicioInteroper.BE.vbproj
+		SccProjectTopLevelParentUniqueName1 = SMV.ServicioInteroper.sln
+		SccProjectName1 = SMV.ServicioInteroper.BE
+		SccLocalPath1 = SMV.ServicioInteroper.BE
+		SccProjectUniqueName2 = SMV.ServicioInteroper.DA\\SMV.ServicioInteroper.DA.vbproj
+		SccProjectTopLevelParentUniqueName2 = SMV.ServicioInteroper.sln
+		SccProjectName2 = SMV.ServicioInteroper.DA
+		SccLocalPath2 = SMV.ServicioInteroper.DA
+		SccProjectUniqueName3 = SMV.ServicioInteroper.BL\\SMV.ServicioInteroper.BL.vbproj
+		SccProjectTopLevelParentUniqueName3 = SMV.ServicioInteroper.sln
+		SccProjectName3 = SMV.ServicioInteroper.BL
+		SccLocalPath3 = SMV.ServicioInteroper.BL
+		SccProjectUniqueName4 = SMV.ServicioInteroper.WCF\\SMV.ServicioInteroper.WCF.vbproj
+		SccProjectTopLevelParentUniqueName4 = SMV.ServicioInteroper.sln
+		SccProjectName4 = SMV.ServicioInteroper.WCF
+		SccLocalPath4 = SMV.ServicioInteroper.WCF
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC4D4DA-4CA2-4744-A04C-7B6EDD2B8D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC4D4DA-4CA2-4744-A04C-7B6EDD2B8D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC4D4DA-4CA2-4744-A04C-7B6EDD2B8D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC4D4DA-4CA2-4744-A04C-7B6EDD2B8D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCD7DD0-9575-4638-928D-3F3EDA016E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCD7DD0-9575-4638-928D-3F3EDA016E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCD7DD0-9575-4638-928D-3F3EDA016E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCD7DD0-9575-4638-928D-3F3EDA016E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D94ADD-CFD8-491A-8863-B2706D0A5BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D94ADD-CFD8-491A-8863-B2706D0A5BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D94ADD-CFD8-491A-8863-B2706D0A5BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D94ADD-CFD8-491A-8863-B2706D0A5BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF538D34-4F13-4EF1-84F7-5A24EA199A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF538D34-4F13-4EF1-84F7-5A24EA199A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF538D34-4F13-4EF1-84F7-5A24EA199A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF538D34-4F13-4EF1-84F7-5A24EA199A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBC4D4DA-4CA2-4744-A04C-7B6EDD2B8D56} = {60729B85-2761-4DF3-97D4-E8F8C38539F8}
+		{6FCD7DD0-9575-4638-928D-3F3EDA016E4A} = {B362E842-A1F8-463D-B543-43F96A78068F}
+		{25D94ADD-CFD8-491A-8863-B2706D0A5BBB} = {CDCC7620-DBFD-4B1F-A19B-FF141C87B53F}
+		{EF538D34-4F13-4EF1-84F7-5A24EA199A5F} = {AE61E302-7684-46B3-B85A-A702037B7B11}
+	EndGlobalSection
+EndGlobal

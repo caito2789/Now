@@ -1,0 +1,1892 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMV.Interoperabilidad.Web
+</name>
+</assembly>
+<members>
+<member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.rbNombres">
+	<summary>
+rbNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.rbDNI">
+	<summary>
+rbDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.dvTipoNombres">
+	<summary>
+dvTipoNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.txtApePaterno">
+	<summary>
+txtApePaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.txtApeMaterno">
+	<summary>
+txtApeMaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.txtNombre1">
+	<summary>
+txtNombre1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.txtNombre2">
+	<summary>
+txtNombre2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.txtNombre3">
+	<summary>
+txtNombre3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.dvTipoDNI">
+	<summary>
+dvTipoDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.txtDNI">
+	<summary>
+txtDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPenales.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.formPrincipal">
+	<summary>
+formPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.hdnOpcion">
+	<summary>
+hdnOpcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.smPrincipal">
+	<summary>
+smPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.TituloPrincipal">
+	<summary>
+TituloPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.botones">
+	<summary>
+botones control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.lblLogin">
+	<summary>
+lblLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.litMenuPrin">
+	<summary>
+litMenuPrin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.lnkLogin">
+	<summary>
+lnkLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.body">
+	<summary>
+body control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.HEstadoSession">
+	<summary>
+HEstadoSession control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.htxtUrl">
+	<summary>
+htxtUrl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.mpPrincipal.opciones">
+	<summary>
+opciones control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.ucwSalida.hdnDSTipoServ">
+	<summary>
+hdnDSTipoServ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.ucwSalida.hdnDSCodLog">
+	<summary>
+hdnDSCodLog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:SMV.Interoperabilidad.Web.Globales">
+	<summary>
+ Módulo que contiene métodos y constantes de apoyo.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.txtApePaterno">
+	<summary>
+txtApePaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.txtApeMaterno">
+	<summary>
+txtApeMaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.txtNombres">
+	<summary>
+txtNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntJudicial.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:SMV.Interoperabilidad.Web.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMV.Interoperabilidad.Web.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMV.Interoperabilidad.Web.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:SMV.Interoperabilidad.Web.frmInicio.dvBloque">
+	<summary>
+dvBloque control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmInicio.lblMensaje">
+	<summary>
+lblMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmInicio.lblIntro">
+	<summary>
+lblIntro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.ddlZona">
+	<summary>
+ddlZona control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.ddlOficina">
+	<summary>
+ddlOficina control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.txtPartida">
+	<summary>
+txtPartida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.ddlRegistro">
+	<summary>
+ddlRegistro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.upGrilla">
+	<summary>
+upGrilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.gvDatos">
+	<summary>
+gvDatos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.dvFormNOK">
+	<summary>
+dvFormNOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsListAsientos.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.rbNombres">
+	<summary>
+rbNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.rbDNI">
+	<summary>
+rbDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.dvTipoDNI">
+	<summary>
+dvTipoDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.txtDNI">
+	<summary>
+txtDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.dvTipoNombres">
+	<summary>
+dvTipoNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.txtApePaterno">
+	<summary>
+txtApePaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.txtApeMaterno">
+	<summary>
+txtApeMaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.txtNombres">
+	<summary>
+txtNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsAntPoliciales.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.txtDNI">
+	<summary>
+txtDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.upGrilla">
+	<summary>
+upGrilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.gvDatos">
+	<summary>
+gvDatos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.dvFormNOK">
+	<summary>
+dvFormNOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsGradYTitulos.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.frmLogin">
+	<summary>
+frmLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.ltNombreAplicacion">
+	<summary>
+ltNombreAplicacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.FailureText">
+	<summary>
+FailureText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.LoginUserValidationSummary">
+	<summary>
+LoginUserValidationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.UserNameLabel">
+	<summary>
+UserNameLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.txtUsuario">
+	<summary>
+txtUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.UserNameRequired">
+	<summary>
+UserNameRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.PasswordLabel">
+	<summary>
+PasswordLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.lnkChangeClave">
+	<summary>
+lnkChangeClave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.lnkResetClave">
+	<summary>
+lnkResetClave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.PasswordRequired">
+	<summary>
+PasswordRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.chkRecordar">
+	<summary>
+chkRecordar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.RememberMeLabel">
+	<summary>
+RememberMeLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmLogin.LoginButton">
+	<summary>
+LoginButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.ddlTipoDato">
+	<summary>
+ddlTipoDato control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.btnExportarExcel">
+	<summary>
+btnExportarExcel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.upGrilla">
+	<summary>
+upGrilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.gvDatos">
+	<summary>
+gvDatos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.gvExcel">
+	<summary>
+gvExcel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.upnlMant">
+	<summary>
+upnlMant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.txtCodigo">
+	<summary>
+txtCodigo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.txtDescripcion">
+	<summary>
+txtDescripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.txtValor1">
+	<summary>
+txtValor1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.txtValor2">
+	<summary>
+txtValor2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.ddlEstado">
+	<summary>
+ddlEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmMantenedor.btnGuardar">
+	<summary>
+btnGuardar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:SMV.Interoperabilidad.Web.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:SMV.Interoperabilidad.Web.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:SMV.Interoperabilidad.Web.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:SMV.Interoperabilidad.Web.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:SMV.Interoperabilidad.Web.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:SMV.Interoperabilidad.Web.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioRequest.CodigoAplicacion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioRequest.TipoUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioRequest.NombreUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioRequest.Password">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioRequest.TipoValidacion">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioRequest">
+	<remarks/>
+</member><member name="F:SMV.Interoperabilidad.Web.AccesoSeguridad.TipoValidacion.Windows">
+	<remarks/>
+</member><member name="F:SMV.Interoperabilidad.Web.AccesoSeguridad.TipoValidacion.Forms">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.TipoValidacion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ListarOpUsuarioResponse.Correcto">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ListarOpUsuarioResponse.MensajeError">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ListarOpUsuarioResponse.Usuario">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.ListarOpUsuarioResponse">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.CodigoUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.NombreUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.ApellidoPaterno">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.ApellidoMaterno">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.UsuarioLogon">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.UsuarioPassword">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.CorreoElectronico">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.TipoUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.EstadoUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.CodigoGerencia">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.CodigoPerfil">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.DescripcionPerfil">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.ListaUsuarioPerfil">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.ListaUsuarioPerfilOpcion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.EstacionUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.UsuarioNT">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.DataSetUsuarioPerfilOpcion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.CodigoAplicacion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE.FlagResetClave">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioBE">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilBE.CodigoUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilBE.CodigoAplicacion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilBE.CodigoPerfil">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilBE.NombreUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilBE.DescripcionPerfil">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilBE">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.CodigoAplicacion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.CodigoUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.CodigoPerfil">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.CodigoOpcion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.CodigoSecuencial">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.Denominacion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.NombrePagina">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.TipoOpcion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.TipoPublico">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE.TipoAcceso">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.UsuarioPerfilOpcionBE">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ListarOpUsuarioRequest.CodigoTransfSesion">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.ListarOpUsuarioRequest">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarSalidaResponse.Correcto">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarSalidaResponse.MensajeError">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarSalidaResponse">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarSalidaRequest.NCOUTIL">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarSalidaRequest">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoResponse.Correcto">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoResponse.MensajeError">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoResponse.NCOUTIL">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoResponse">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoRequest.CodigoAplicacion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoRequest.CodigoOpcion">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoRequest.CodigoUsuario">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoRequest.DireccionIP">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoRequest.NombrePC">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoRequest">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioResponse.Correcto">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioResponse.MensajeError">
+	<remarks/>
+</member><member name="P:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioResponse.Usuario">
+	<remarks/>
+</member><member name="T:SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioResponse">
+	<remarks/>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.txtDNI">
+	<summary>
+txtDNI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.txtApePaterno">
+	<summary>
+txtApePaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.txtApeMaterno">
+	<summary>
+txtApeMaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.txtNombres">
+	<summary>
+txtNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.txtFechaNac">
+	<summary>
+txtFechaNac control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.txtSexo">
+	<summary>
+txtSexo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.dvFormNOK">
+	<summary>
+dvFormNOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsValDNI.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.ddlZona">
+	<summary>
+ddlZona control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.ddlOficina">
+	<summary>
+ddlOficina control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtPartida">
+	<summary>
+txtPartida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtAsiento">
+	<summary>
+txtAsiento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtApePaterno">
+	<summary>
+txtApePaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtApeMaterno">
+	<summary>
+txtApeMaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtNombres">
+	<summary>
+txtNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtCargo">
+	<summary>
+txtCargo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtEstado">
+	<summary>
+txtEstado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtSolicitud">
+	<summary>
+txtSolicitud control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtFecha">
+	<summary>
+txtFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.dvFormNOK">
+	<summary>
+dvFormNOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsVigPoderes.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.ddlTipoServicio">
+	<summary>
+ddlTipoServicio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.txtFECINI">
+	<summary>
+txtFECINI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.txtFECFIN">
+	<summary>
+txtFECFIN control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.ddlUsuario">
+	<summary>
+ddlUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.ddlTipoEvento">
+	<summary>
+ddlTipoEvento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel">
+	<summary>
+btnExportarExcel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.upGrilla">
+	<summary>
+upGrilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos">
+	<summary>
+gvDatos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.gvExcel">
+	<summary>
+gvExcel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsultaLog.ucwSalida">
+	<summary>
+ucwSalida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.txtNroDocCE">
+	<summary>
+txtNroDocCE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.txtCalidadMigra">
+	<summary>
+txtCalidadMigra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.txtApePrimer">
+	<summary>
+txtApePrimer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.txtApeSegundo">
+	<summary>
+txtApeSegundo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.txtNombres">
+	<summary>
+txtNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.dvFormNOK">
+	<summary>
+dvFormNOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsCarnetExtranj.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerPDF.formPrincipal">
+	<summary>
+formPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerPDF.smPrincipal">
+	<summary>
+smPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerPDF.ltVerPDF">
+	<summary>
+ltVerPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.uplFiltros">
+	<summary>
+uplFiltros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.rbNombres">
+	<summary>
+rbNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.rbRazonS">
+	<summary>
+rbRazonS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.dvTipoNombres">
+	<summary>
+dvTipoNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.txtApePaterno">
+	<summary>
+txtApePaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.txtApeMaterno">
+	<summary>
+txtApeMaterno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.txtNombres">
+	<summary>
+txtNombres control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.dvTipoRazonS">
+	<summary>
+dvTipoRazonS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.txtRazonSocial">
+	<summary>
+txtRazonSocial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.btnConsultar">
+	<summary>
+btnConsultar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.btnLimpiar">
+	<summary>
+btnLimpiar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.btnExportarPDF">
+	<summary>
+btnExportarPDF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.hdnConsulta">
+	<summary>
+hdnConsulta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.upResultados">
+	<summary>
+upResultados control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.upGrilla">
+	<summary>
+upGrilla control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.gvDatos">
+	<summary>
+gvDatos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.dvFormNOK">
+	<summary>
+dvFormNOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmConsTituBienes.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerAsiento.formPrincipal">
+	<summary>
+formPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerAsiento.smPrincipal">
+	<summary>
+smPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerAsiento.lblIDImagenAs">
+	<summary>
+lblIDImagenAs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerAsiento.dvFormOK">
+	<summary>
+dvFormOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerAsiento.imgVerAsiento">
+	<summary>
+imgVerAsiento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerAsiento.dvFormNOK">
+	<summary>
+dvFormNOK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMV.Interoperabilidad.Web.frmVerAsiento.txtDescMensaje">
+	<summary>
+txtDescMensaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

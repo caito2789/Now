@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws.consulta.usuarios.migraciones.gob.pe/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soa="http://soa.com/uri/products/wsdlext/1.0" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" targetNamespace="http://ws.consulta.usuarios.migraciones.gob.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema targetNamespace="http://ws.consulta.usuarios.migraciones.gob.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="consultarDocumento" type="tns:consultarDocumento" />
+      <xs:element name="consultarDocumentoResponse" type="tns:consultarDocumentoResponse" />
+      <xs:complexType name="consultarDocumento">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="solicitud" type="tns:solicitudBean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="solicitudBean">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:consulta">
+            <xs:sequence />
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="consulta" abstract="true">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="strCodInstitucion" type="xs:string" />
+          <xs:element minOccurs="0" name="strMac" type="xs:string" />
+          <xs:element minOccurs="0" name="strNroIp" type="xs:string" />
+          <xs:element minOccurs="0" name="strNumDocumento" type="xs:string" />
+          <xs:element minOccurs="0" name="strTipoDocumento" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="consultarDocumentoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:respuestaBean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaBean">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="strCalidadMigratoria" type="xs:string" />
+          <xs:element minOccurs="0" name="strNombres" type="xs:string" />
+          <xs:element minOccurs="0" name="strNumRespuesta" type="xs:string" />
+          <xs:element minOccurs="0" name="strPrimerApellido" type="xs:string" />
+          <xs:element minOccurs="0" name="strSegundoApellido" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </types>
+  <message name="consultarDocumento">
+    <part name="parameters" element="tns:consultarDocumento" />
+  </message>
+  <message name="consultarDocumentoResponse">
+    <part name="parameters" element="tns:consultarDocumentoResponse" />
+  </message>
+  <portType name="EjecTransaccionCarExtraPcm">
+    <operation name="consultarDocumento">
+      <input wsam:Action="consultarDocumento" message="tns:consultarDocumento" />
+      <output wsam:Action="http://ws.consulta.usuarios.migraciones.gob.pe/EjecTransaccionCarExtraPcm/consultarDocumentoResponse" message="tns:consultarDocumentoResponse" />
+    </operation>
+  </portType>
+  <binding name="EjecTransaccionCarExtraPcmPortBinding" type="tns:EjecTransaccionCarExtraPcm">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="consultarDocumento">
+      <soap:operation soapAction="consultarDocumento" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="EjecTransaccionCarExtraPcmService_vs0">
+    <port name="CarExtraS" binding="tns:EjecTransaccionCarExtraPcmPortBinding">
+      <soap:address location="https://10.0.1.112:9953/CarExtraS" />
+    </port>
+    <port name="CarExtra" binding="tns:EjecTransaccionCarExtraPcmPortBinding">
+      <soap:address location="http://10.0.1.112:9951/CarExtra" />
+    </port>
+  </service>
+</definitions>

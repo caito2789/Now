@@ -1,0 +1,287 @@
+(03/04/2017 11:43:18 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:43:18 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:44:22 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:44:22 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:46:48 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:46:48 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:48:05 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:48:05 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:50:19 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:50:19 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:50:32 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:50:32 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:52:50 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:52:50 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:58:38 a.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 11:58:38 a.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 11:58:55 a.m.) Message:
+No se puede convertir un objeto de tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.LogBE]' al tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SuneduBE]'.
+(03/04/2017 11:58:55 a.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_Sorting(Object sender, GridViewSortEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 59
+----------------------------------------------------------------------------
+(03/04/2017 12:01:08 p.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 12:01:08 p.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 12:02:02 p.m.) Message:
+No se puede convertir un objeto de tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.LogBE]' al tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SuneduBE]'.
+(03/04/2017 12:02:02 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_Sorting(Object sender, GridViewSortEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 59
+----------------------------------------------------------------------------
+(03/04/2017 12:05:21 p.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 12:05:21 p.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 12:07:28 p.m.) Message:
+ORA-01791: no es una expresión obtenida bajo SELECT
+ORA-06512: en "PROYECTOS.PKG_GESTION_INTEROPERABILIDAD", línea 206
+ORA-06512: en línea 1
+(03/04/2017 12:07:28 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.LimpiarData() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 195
+   en SMV.Interoperabilidad.Web.frmConsultaLog.Page_Load(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 28
+----------------------------------------------------------------------------
+(03/04/2017 12:07:59 p.m.) Message:
+ORA-01791: no es una expresión obtenida bajo SELECT
+ORA-06512: en "PROYECTOS.PKG_GESTION_INTEROPERABILIDAD", línea 206
+ORA-06512: en línea 1
+(03/04/2017 12:07:59 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.LimpiarData() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 195
+   en SMV.Interoperabilidad.Web.frmConsultaLog.Page_Load(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 28
+----------------------------------------------------------------------------
+(03/04/2017 12:10:44 p.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 12:10:44 p.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 12:11:25 p.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 12:11:25 p.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 12:13:47 p.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 12:13:47 p.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 12:14:18 p.m.) Message:
+El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: index
+(03/04/2017 12:14:18 p.m.) StackTrace:
+   en System.Web.UI.ControlCollection.get_Item(Int32 index)
+   en System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_RowDataBound(Object sender, GridViewRowEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 123
+----------------------------------------------------------------------------
+(03/04/2017 12:18:31 p.m.) Message:
+No se puede convertir un objeto de tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.LogBE]' al tipo 'System.Collections.Generic.List`1[SMV.Interoperabilidad.BE.SuneduBE]'.
+(03/04/2017 12:18:31 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.gvDatos_Sorting(Object sender, GridViewSortEventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 59
+----------------------------------------------------------------------------
+(03/04/2017 06:11:06 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 06:11:06 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 327
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 49
+----------------------------------------------------------------------------
+(03/04/2017 06:13:04 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 06:13:04 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 327
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 49
+----------------------------------------------------------------------------
+(03/04/2017 06:18:33 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 06:18:33 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 327
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 49
+----------------------------------------------------------------------------
+(03/04/2017 06:23:57 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 06:23:57 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 337
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 49
+----------------------------------------------------------------------------
+(03/04/2017 06:43:42 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 06:43:42 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 339
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 06:48:41 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 06:48:41 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 339
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 06:55:43 p.m.) Message:
+La columna 'Tipo Servicio' ya pertenece a DataTable.
+(03/04/2017 06:55:43 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 339
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 06:58:33 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 06:58:33 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 339
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 07:19:25 p.m.) Message:
+Referencia a objeto no establecida como instancia de un objeto.
+(03/04/2017 07:19:25 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 363
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 07:25:01 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 07:25:01 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel()
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e)
+----------------------------------------------------------------------------
+(03/04/2017 07:32:08 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 07:32:08 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 364
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 07:39:14 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 07:39:14 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 365
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 07:49:29 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 07:49:29 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 365
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 07:49:48 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 07:49:48 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 365
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 07:50:01 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 07:50:01 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 365
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 07:51:22 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 07:51:22 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 365
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 08:22:25 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 08:22:25 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 358
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 08:31:26 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 08:31:26 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 373
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 08:39:26 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 08:39:26 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 391
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 08:43:45 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 08:43:45 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 389
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 08:44:30 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 08:44:30 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 389
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 09:10:34 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 09:10:34 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 402
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 09:19:52 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 09:19:52 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 416
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------
+(03/04/2017 09:21:02 p.m.) Message:
+Subproceso anulado.
+(03/04/2017 09:21:02 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 416
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------

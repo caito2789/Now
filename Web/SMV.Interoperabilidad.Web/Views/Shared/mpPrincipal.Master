@@ -1,0 +1,151 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="mpPrincipal.Master.vb" Inherits="SMV.Interoperabilidad.Web.mpPrincipal" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keyword" content="" />
+    <title>Sistema de Interoperabilidad | Superintendencia del Mercado de Valores</title>
+    <link href="../../Content/Styles/Core/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/Styles/Core/bootstrap-reset.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/Styles/Core/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" /> 
+    <link href="../../Content/assets/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/assets/bootstrap-timepicker/compiled/timepicker.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/assets/bootstrap-datetimepicker/css/datetimepicker.css" rel="stylesheet" type="text/css" />    
+    <link href="../../Content/Styles/Core/slidebars.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/assets/advanced-datatable/media/css/demo_page.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/assets/advanced-datatable/media/css/demo_table.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/assets/data-tables/DT_bootstrap.css" rel="stylesheet" type="text/css" />                    
+    <link href="../../Content/Styles/Core/smv-estilos.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/Styles/Core/style-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/Styles/smv-interoperabilidad.css" rel="stylesheet" type="text/css" />      
+    <script src="../../Content/Scripts/Core/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <script src="../../Content/Scripts/Core/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script> 
+    <script src="../../Content/Scripts/Core/smv-mp-principal.js" type="text/javascript"></script>  
+    <script src="../../Content/Scripts/smv_Interoperabilidad.js" type="text/javascript"></script>              
+    <!--[if gte IE 9]
+    <style type="text/css">
+    .gradient {
+        filter: none;
+    }
+    </style>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="../../Content/Scripts/Core/html5shiv.js" type="text/javascript"></script>
+        <script src="../../Content/Scripts/Core/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="formPrincipal" runat="server">
+    <asp:HiddenField ID="hdnOpcion" runat="server" />
+    <asp:ScriptManager ID="smPrincipal" runat="server" AsyncPostBackTimeout="0">
+        <Scripts>
+            <asp:ScriptReference Path="~/Content/Scripts/Core/smv-mp-principal-init.js" />
+        </Scripts>
+    </asp:ScriptManager>
+    <!-- INICIO DEL NUEVO DISEÑO --> 
+    <section id="container" class="">    
+        <!--Header start-->
+        <header class="header white-bg">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle bg-primary" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Desplegar Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="logo"><img alt="" class="pequenia" src="../../Content/images/logo_conasev2.png" /></a>
+                </div>
+                <!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento que se pueda ocultar al minimizar la barra -->
+                <div class="navbar-collapse navbar-ex1-collapse collapse" aria-expanded="false" style="height:1px;">
+                    <ul class="nav navbar-nav" style="margin-left:20px">
+                        <li>
+                            <div class="TituloMaster"><asp:Label id="TituloPrincipal" runat="server"></asp:Label></div>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right" style="padding-top:10px;">
+                        <li>
+                            <ul>
+                                <asp:ContentPlaceHolder ID="botones" runat="server"></asp:ContentPlaceHolder>            
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-user fa-2x" aria-hidden="true"></i> <asp:Label ID="lblLogin" runat="server" Text="USUARIO LOGIN"></asp:Label><b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <asp:Literal ID="litMenuPrin" runat="server"></asp:Literal>
+                                <li class="divider"></li>
+                                <li>
+                                    <asp:LinkButton ID="lnkLogin" runat="server" Text="Cerrar Sesi&oacute;n"><span class="glyphicon glyphicon-log-out"></span> Cerrar Sesi&oacute;n</asp:LinkButton>                                    
+                                </li>
+                            </ul>
+                         </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--Header Finish-->
+        <!--Content start-->
+        <section id="main-content">
+            <section class="wrapper">
+	    	    <div class="row">
+                	<div class="col-md-12" style="padding:3px 3px">
+                    	<%--<section class="panel col-sm-2">
+                            <asp:Literal runat="server" ID="ltMenu" ></asp:Literal>
+                    	</section>--%>
+                        <section class="panel col-sm-12">
+                            <asp:ContentPlaceHolder ID="body" runat="server">
+                        	</asp:ContentPlaceHolder>
+                    	</section>
+                	</div> 
+		        </div>
+            </section>
+        </section>
+        <asp:HiddenField ID="HEstadoSession" runat="server" ClientIDMode="Static" Value="0" />
+        <asp:HiddenField ID="htxtUrl" runat="server" ClientIDMode="Static" />
+        <!--Content Finish-->
+    </section>
+    <!-- FIN DEL NUEVO DISEÑO -->
+    <asp:ContentPlaceHolder ID="opciones" runat="server">
+    </asp:ContentPlaceHolder>  
+
+    <div id="load" style="display:none;">
+        <div style="background-color:Gray; filter:alpha(opacity=60); opacity:0.60; top:0px; left:0px; position:fixed; 
+            height:100%; width:100%; z-index:102;">
+        </div>
+        <div style="margin:auto; filter:alpha(opacity=100); z-index:103; opacity:1; position:fixed;
+            color:#275721; text-align:center; vertical-align:middle; top:45%; right:45%; padding:10px 10px;">
+            <img src="../../Content/Images/ico-load.gif" alt="Cargando" />
+        </div>
+    </div>                     
+</form>
+
+<script src="../../Content/Scripts/Core/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../Content/Scripts/Core/bootstrap-select.js" type="text/javascript"></script>
+<script src="../../Content/Scripts/Core/jquery.dcjqaccordion.2.7.js" type="text/javascript"></script>
+<script src="../../Content/Scripts/Core/jquery.scrollTo.min.js" type="text/javascript"></script>
+<script src="../../Content/Scripts/Core/slidebars.min.js" type="text/javascript"></script>
+<script src="../../Content/Scripts/Core/jquery.nicescroll.js" type="text/javascript"></script>
+<script src="../../Content/assets/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="../../Content/assets/bootstrap-timepicker/js/bootstrap-timepicker.js" type="text/javascript"></script>
+<script src="../../Content/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<script src="../../Content/assets/advanced-datatable/media/js/jquery.dataTables.js" type="text/javascript"></script>
+<script src="../../Content/assets/data-tables/DT_bootstrap.js" type="text/javascript"></script> 
+<script src="../../Content/Scripts/Core/dynamic_table_init.js" type="text/javascript"></script>      
+<script src="../../Content/Scripts/Core/common-scripts.js" type="text/javascript"></script>
+<script src="../../Content/Scripts/Core/advanced-form-components.js" type="text/javascript"></script>   
+<script src="../../Content/Scripts/Core/jquery.numeric.js" type="text/javascript"></script>  
+<script src="../../Content/Scripts/Core/smv_Date.js" type="text/javascript"></script>            
+</body>
+</html>

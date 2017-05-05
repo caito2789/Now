@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Entidades", "1. Entidades", "{6B51BE87-395F-4FB0-84CB-0019B55FD4E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Acceso a Datos", "2. Acceso a Datos", "{9FBCF11B-9A81-4B9D-86C0-6B4E3BBFB6A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Logica", "3. Logica", "{5A8AB149-9EE3-46FA-9E5E-743EF844BCC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{0CEBD96C-C3C6-4EFC-A57E-F440EAEF07C7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.Interoperabilidad.BE", "SMV.Interoperabilidad.BE\SMV.Interoperabilidad.BE.vbproj", "{38DCB338-057B-4FE3-B63F-61318097F97C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.Interoperabilidad.DA", "SMV.Interoperabilidad.DA\SMV.Interoperabilidad.DA.vbproj", "{F7D16E23-7A7F-4168-A2EB-270166E0BAD1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.Interoperabilidad.BL", "SMV.Interoperabilidad.BL\SMV.Interoperabilidad.BL.vbproj", "{F34D5699-1E09-432F-AA53-064A69E05B8C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMV.Interoperabilidad.Web", "SMV.Interoperabilidad.Web\SMV.Interoperabilidad.Web.vbproj", "{75BF9FB4-61D6-4158-9018-52E3B5D542BD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hp062481:8080/tfs/swf_tgsc
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SMV.Interoperabilidad.BE\\SMV.Interoperabilidad.BE.vbproj
+		SccProjectTopLevelParentUniqueName1 = SMV.Interoperabilidad.sln
+		SccProjectName1 = SMV.Interoperabilidad.BE
+		SccLocalPath1 = SMV.Interoperabilidad.BE
+		SccProjectUniqueName2 = SMV.Interoperabilidad.BL\\SMV.Interoperabilidad.BL.vbproj
+		SccProjectTopLevelParentUniqueName2 = SMV.Interoperabilidad.sln
+		SccProjectName2 = SMV.Interoperabilidad.BL
+		SccLocalPath2 = SMV.Interoperabilidad.BL
+		SccProjectUniqueName3 = SMV.Interoperabilidad.DA\\SMV.Interoperabilidad.DA.vbproj
+		SccProjectTopLevelParentUniqueName3 = SMV.Interoperabilidad.sln
+		SccProjectName3 = SMV.Interoperabilidad.DA
+		SccLocalPath3 = SMV.Interoperabilidad.DA
+		SccProjectUniqueName4 = SMV.Interoperabilidad.Web\\SMV.Interoperabilidad.Web.vbproj
+		SccProjectTopLevelParentUniqueName4 = SMV.Interoperabilidad.sln
+		SccProjectName4 = SMV.Interoperabilidad.Web
+		SccLocalPath4 = SMV.Interoperabilidad.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38DCB338-057B-4FE3-B63F-61318097F97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DCB338-057B-4FE3-B63F-61318097F97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DCB338-057B-4FE3-B63F-61318097F97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DCB338-057B-4FE3-B63F-61318097F97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D16E23-7A7F-4168-A2EB-270166E0BAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D16E23-7A7F-4168-A2EB-270166E0BAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D16E23-7A7F-4168-A2EB-270166E0BAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D16E23-7A7F-4168-A2EB-270166E0BAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34D5699-1E09-432F-AA53-064A69E05B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34D5699-1E09-432F-AA53-064A69E05B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34D5699-1E09-432F-AA53-064A69E05B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34D5699-1E09-432F-AA53-064A69E05B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BF9FB4-61D6-4158-9018-52E3B5D542BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BF9FB4-61D6-4158-9018-52E3B5D542BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BF9FB4-61D6-4158-9018-52E3B5D542BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BF9FB4-61D6-4158-9018-52E3B5D542BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38DCB338-057B-4FE3-B63F-61318097F97C} = {6B51BE87-395F-4FB0-84CB-0019B55FD4E6}
+		{F7D16E23-7A7F-4168-A2EB-270166E0BAD1} = {9FBCF11B-9A81-4B9D-86C0-6B4E3BBFB6A7}
+		{F34D5699-1E09-432F-AA53-064A69E05B8C} = {5A8AB149-9EE3-46FA-9E5E-743EF844BCC8}
+		{75BF9FB4-61D6-4158-9018-52E3B5D542BD} = {0CEBD96C-C3C6-4EFC-A57E-F440EAEF07C7}
+	EndGlobalSection
+EndGlobal

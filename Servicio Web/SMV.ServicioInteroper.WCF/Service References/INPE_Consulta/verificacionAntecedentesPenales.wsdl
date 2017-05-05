@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.verificacionAntecedentesPenalesWS.pj.gob.pe" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soa="http://soa.com/uri/products/wsdlext/1.0" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" targetNamespace="http://ws.verificacionAntecedentesPenalesWS.pj.gob.pe" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://ws.verificacionAntecedentesPenalesWS.pj.gob.pe" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="verificarAntecedentesPenales">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="xApellidoPaterno" type="xs:string" />
+            <xs:element name="xApellidoMaterno" type="xs:string" />
+            <xs:element name="xNombre1" type="xs:string" />
+            <xs:element name="xNombre2" type="xs:string" />
+            <xs:element name="xNombre3" type="xs:string" />
+            <xs:element name="xDni" type="xs:string" />
+            <xs:element name="xMotivoConsulta" type="xs:string" />
+            <xs:element name="xProcesoEntidadConsultante" type="xs:string" />
+            <xs:element name="xRucEntidadConsultante" type="xs:string" />
+            <xs:element name="xDniPersonaConsultante" type="xs:string" />
+            <xs:element name="xAudNombrePC" type="xs:string" />
+            <xs:element name="xAudIP" type="xs:string" />
+            <xs:element name="xAudNombreUsuario" type="xs:string" />
+            <xs:element name="xAudDireccionMAC" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="verificarAntecedentesPenalesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="xCodigoRespuesta" type="xs:string" />
+            <xs:element name="xMensajeRespuesta" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="verificarAntecedentesPenalesResponse">
+    <wsdl:part name="out" element="tns:verificarAntecedentesPenalesResponse" />
+  </wsdl:message>
+  <wsdl:message name="verificarAntecedentesPenales">
+    <wsdl:part name="in" element="tns:verificarAntecedentesPenales" />
+  </wsdl:message>
+  <wsdl:portType name="verificacionAntecedentesPenalesServicio">
+    <wsdl:operation name="verificarAntecedentesPenales">
+      <wsdl:input name="verificarAntecedentesPenales" message="tns:verificarAntecedentesPenales" />
+      <wsdl:output name="verificarAntecedentesPenalesResponse" message="tns:verificarAntecedentesPenalesResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="verificacionAntecedentesPenalesServicioSoapBinding" type="tns:verificacionAntecedentesPenalesServicio">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="verificarAntecedentesPenales">
+      <soap:operation soapAction="http://ws.verificacionAntecedentesPenalesWS.pj.gob.pe/NewOperation" style="document" />
+      <wsdl:input name="verificarAntecedentesPenales">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="verificarAntecedentesPenalesResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="verificacionAntecedentesPenalesServicio_vs0">
+    <wsdl:port name="verificacionAntecedentesPenalesPort" binding="tns:verificacionAntecedentesPenalesServicioSoapBinding">
+      <soap:address location="http://10.0.1.112:9951/verificacionAntecedentesPenales" />
+    </wsdl:port>
+    <wsdl:port name="verificacionAntecedentesPenalesPortS" binding="tns:verificacionAntecedentesPenalesServicioSoapBinding">
+      <soap:address location="https://10.0.1.112:9953/verificacionAntecedentesPenalesS" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{75BF9FB4-61D6-4158-9018-52E3B5D542BD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SMV.Interoperabilidad.Web</RootNamespace>
+    <AssemblyName>SMV.Interoperabilidad.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SMV.Interoperabilidad.Web.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SMV.Interoperabilidad.Web.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.4.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa, Version=5.4.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="SignnetSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8323707bc53428f9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\SignnetSolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMV.Interoperabilidad.BE\SMV.Interoperabilidad.BE.vbproj">
+      <Project>{38dcb338-057b-4fe3-b63f-61318097f97c}</Project>
+      <Name>SMV.Interoperabilidad.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMV.Interoperabilidad.BL\SMV.Interoperabilidad.BL.vbproj">
+      <Project>{f34d5699-1e09-432f-aa53-064a69e05b8c}</Project>
+      <Name>SMV.Interoperabilidad.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\assets\font-awesome\fonts\fontawesome-webfontba72.eot" />
+    <Content Include="Content\assets\font-awesome\fonts\fontawesome-webfontba72.woff" />
+    <Content Include="Content\assets\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Content\Images\imgDetalle.png" />
+    <Content Include="Content\Images\img_Asiento.png" />
+    <Content Include="Content\Scripts\Core\html5shiv.js" />
+    <Content Include="Content\Scripts\Core\jquery.media.js" />
+    <Content Include="Content\Scripts\Core\jquery.metadata.js" />
+    <Content Include="Content\Scripts\Core\smv_Date.js" />
+    <Content Include="Content\Scripts\smv_Interoperabilidad.js" />
+    <Content Include="Content\Styles\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\Styles\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\Styles\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Content\Images\Thumbs.db" />
+    <None Include="My Project\PublishProfiles\Interop.pubxml" />
+    <None Include="Service References\AccesoSeguridad\SMV.disco" />
+    <None Include="Service References\AccesoSeguridad\configuration91.svcinfo" />
+    <None Include="Service References\AccesoSeguridad\configuration.svcinfo" />
+    <None Include="Service References\AccesoSeguridad\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="Content\assets\advanced-datatable\media\css\demo_page.css" />
+    <Content Include="Content\assets\advanced-datatable\media\css\demo_table.css" />
+    <Content Include="Content\assets\advanced-datatable\media\images\back_disabled.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\back_enabled.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\back_enabled_hover.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\forward_disabled.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\forward_enabled.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\forward_enabled_hover.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\sort_asc.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\sort_asc_disabled.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\sort_both.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\sort_desc.png" />
+    <Content Include="Content\assets\advanced-datatable\media\images\sort_desc_disabled.png" />
+    <Content Include="Content\assets\advanced-datatable\media\js\jquery.dataTables.js" />
+    <Content Include="Content\assets\bootstrap-colorpicker\css\colorpicker.css" />
+    <Content Include="Content\assets\bootstrap-colorpicker\img\alpha.png" />
+    <Content Include="Content\assets\bootstrap-colorpicker\img\hue.png" />
+    <Content Include="Content\assets\bootstrap-colorpicker\img\saturation.png" />
+    <Content Include="Content\assets\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
+    <Content Include="Content\assets\bootstrap-datepicker\css\datepicker.css" />
+    <Content Include="Content\assets\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <Content Include="Content\assets\bootstrap-daterangepicker\date.js" />
+    <Content Include="Content\assets\bootstrap-daterangepicker\daterangepicker-bs3.css" />
+    <Content Include="Content\assets\bootstrap-daterangepicker\daterangepicker.css" />
+    <Content Include="Content\assets\bootstrap-daterangepicker\daterangepicker.js" />
+    <Content Include="Content\assets\bootstrap-daterangepicker\moment.min.js" />
+    <Content Include="Content\assets\bootstrap-datetimepicker\css\datetimepicker.css" />
+    <Content Include="Content\assets\bootstrap-datetimepicker\js\bootstrap-datetimepicker.js" />
+    <Content Include="Content\assets\bootstrap-fileupload\bootstrap-fileupload.css" />
+    <Content Include="Content\assets\bootstrap-fileupload\bootstrap-fileupload.js" />
+    <Content Include="Content\assets\bootstrap-inputmask\bootstrap-inputmask.min.js" />
+    <Content Include="Content\assets\bootstrap-timepicker\compiled\timepicker.css" />
+    <Content Include="Content\assets\bootstrap-timepicker\js\bootstrap-timepicker.js" />
+    <Content Include="Content\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.css" />
+    <Content Include="Content\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.js" />
+    <Content Include="Content\assets\bootstrap-wysihtml5\wysihtml5-0.3.0.js" />
+    <Content Include="Content\assets\chart-master\Chart.js" />
+    <Content Include="Content\assets\ckeditor\ckeditor.js" />
+    <Content Include="Content\assets\data-tables\DT_bootstrap.css" />
+    <Content Include="Content\assets\data-tables\DT_bootstrap.js" />
+    <Content Include="Content\assets\data-tables\images\sort_asc.png" />
+    <Content Include="Content\assets\data-tables\images\sort_asc_disabled.html" />
+    <Content Include="Content\assets\data-tables\images\sort_both.png" />
+    <Content Include="Content\assets\data-tables\images\sort_desc.png" />
+    <Content Include="Content\assets\data-tables\images\sort_desc_disabled.html" />
+    <Content Include="Content\assets\data-tables\jquery.dataTables.js" />
+    <Content Include="Content\assets\dropzone\css\dropzone.css" />
+    <Content Include="Content\assets\dropzone\dropzone.js" />
+    <Content Include="Content\assets\dropzone\images\spritemap%402x.png" />
+    <Content Include="Content\assets\dropzone\images\spritemap.png" />
+    <Content Include="Content\assets\fancybox\source\blank.gif" />
+    <Content Include="Content\assets\fancybox\source\fancybox_loading.gif" />
+    <Content Include="Content\assets\fancybox\source\fancybox_overlay.png" />
+    <Content Include="Content\assets\fancybox\source\fancybox_sprite.png" />
+    <Content Include="Content\assets\fancybox\source\jquery.fancybox.css" />
+    <Content Include="Content\assets\fancybox\source\jquery.fancybox.js" />
+    <Content Include="Content\assets\file-uploader\css\jquery.fileupload-noscript.css" />
+    <Content Include="Content\assets\file-uploader\css\jquery.fileupload-ui-noscript.css" />
+    <Content Include="Content\assets\file-uploader\css\jquery.fileupload-ui.css" />
+    <Content Include="Content\assets\file-uploader\css\jquery.fileupload.css" />
+    <Content Include="Content\assets\file-uploader\img\loading.gif" />
+    <Content Include="Content\assets\file-uploader\img\progressbar.gif" />
+    <Content Include="Content\assets\file-uploader\js\jquery.fileupload-audio.js" />
+    <Content Include="Content\assets\file-uploader\js\jquery.fileupload-image.js" />
+    <Content Include="Content\assets\file-uploader\js\jquery.fileupload-process.js" />
+    <Content Include="Content\assets\file-uploader\js\jquery.fileupload-ui.js" />
+    <Content Include="Content\assets\file-uploader\js\jquery.fileupload-validate.js" />
+    <Content Include="Content\assets\file-uploader\js\jquery.fileupload-video.js" />
+    <Content Include="Content\assets\file-uploader\js\jquery.fileupload.js" />
+    <Content Include="Content\assets\file-uploader\js\jquery.iframe-transport.js" />
+    <Content Include="Content\assets\file-uploader\js\main.js" />
+    <Content Include="Content\assets\file-uploader\js\vendor\jquery.ui.widget.js" />
+    <Content Include="Content\assets\flot\jquery.flot.crosshair.js" />
+    <Content Include="Content\assets\flot\jquery.flot.js" />
+    <Content Include="Content\assets\flot\jquery.flot.pie.js" />
+    <Content Include="Content\assets\flot\jquery.flot.resize.js" />
+    <Content Include="Content\assets\flot\jquery.flot.stack.js" />
+    <Content Include="Content\assets\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\assets\font-awesome\fonts\fontawesome-webfontba72.html" />
+    <Content Include="Content\assets\font-awesome\fonts\fontawesome-webfontba72.svg" />
+    <Content Include="Content\assets\fuelux\css\tree-style.css" />
+    <Content Include="Content\assets\fuelux\img\tree-icons.png" />
+    <Content Include="Content\assets\fuelux\js\spinner.min.js" />
+    <Content Include="Content\assets\fuelux\js\tree.min.js" />
+    <Content Include="Content\assets\fullcalendar\fullcalendar\bootstrap-fullcalendar.css" />
+    <Content Include="Content\assets\fullcalendar\fullcalendar\fullcalendar.min.js" />
+    <Content Include="Content\assets\gritter\css\jquery.gritter.css" />
+    <Content Include="Content\assets\gritter\images\gritter-light.png" />
+    <Content Include="Content\assets\gritter\images\gritter.png" />
+    <Content Include="Content\assets\gritter\images\ie-spacer.gif" />
+    <Content Include="Content\assets\gritter\js\jquery.gritter.js" />
+    <Content Include="Content\assets\jcrop\css\Jcrop.gif" />
+    <Content Include="Content\assets\jcrop\css\jquery.Jcrop.min.css" />
+    <Content Include="Content\assets\jcrop\js\jquery.color.js" />
+    <Content Include="Content\assets\jcrop\js\jquery.Jcrop.min.js" />
+    <Content Include="Content\assets\jquery-easy-pie-chart\jquery.easy-pie-chart.css" />
+    <Content Include="Content\assets\jquery-easy-pie-chart\jquery.easy-pie-chart.js" />
+    <Content Include="Content\assets\jquery-file-upload\css\jquery.fileupload-ui.css" />
+    <Content Include="Content\assets\jquery-file-upload\img\loading.gif" />
+    <Content Include="Content\assets\jquery-file-upload\img\progressbar.gif" />
+    <Content Include="Content\assets\jquery-file-upload\js\jquery.fileupload-fp.js" />
+    <Content Include="Content\assets\jquery-file-upload\js\jquery.fileupload-ui.js" />
+    <Content Include="Content\assets\jquery-file-upload\js\jquery.fileupload.js" />
+    <Content Include="Content\assets\jquery-file-upload\js\jquery.iframe-transport.js" />
+    <Content Include="Content\assets\jquery-file-upload\js\vendor\canvas-to-blob.min.js" />
+    <Content Include="Content\assets\jquery-file-upload\js\vendor\jquery.ui.widget.js" />
+    <Content Include="Content\assets\jquery-file-upload\js\vendor\load-image.min.js" />
+    <Content Include="Content\assets\jquery-file-upload\js\vendor\tmpl.min.js" />
+    <Content Include="Content\assets\jquery-knob\js\jquery.knob.js" />
+    <Content Include="Content\assets\jquery-multi-select\css\multi-select.css" />
+    <Content Include="Content\assets\jquery-multi-select\img\switch.png" />
+    <Content Include="Content\assets\jquery-multi-select\js\jquery.multi-select.js" />
+    <Content Include="Content\assets\jquery-multi-select\js\jquery.quicksearch.js" />
+    <Content Include="Content\assets\jquery-ui\images\animated-overlay.gif" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Content\assets\jquery-ui\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\assets\jquery-ui\jquery-ui-1.10.1.custom.min.css" />
+    <Content Include="Content\assets\jquery-ui\jquery-ui-1.10.1.custom.min.js" />
+    <Content Include="Content\assets\morris.js-0.4.3\morris.css" />
+    <Content Include="Content\assets\morris.js-0.4.3\morris.min.js" />
+    <Content Include="Content\assets\morris.js-0.4.3\raphael-min.js" />
+    <Content Include="Content\assets\nestable\jquery.nestable.css" />
+    <Content Include="Content\assets\nestable\jquery.nestable.js" />
+    <Content Include="Content\assets\summernote\dist\summernote.css" />
+    <Content Include="Content\assets\summernote\dist\summernote.min.js" />
+    <Content Include="Content\assets\toastr-master\toastr.css" />
+    <Content Include="Content\assets\toastr-master\toastr.js" />
+    <Content Include="Content\assets\xchart\d3.v3.min.js" />
+    <Content Include="Content\assets\xchart\xcharts.css" />
+    <Content Include="Content\assets\xchart\xcharts.min.js" />
+    <Content Include="Content\Images\arrow-up.png" />
+    <Content Include="Content\Images\header-smv-2.jpg" />
+    <Content Include="Content\Images\ico-load.gif" />
+    <Content Include="Content\Images\imgInicio.jpg" />
+    <Content Include="Content\Images\img_footer.jpg" />
+    <Content Include="Content\Images\logo2.png" />
+    <Content Include="Content\Images\LogoPortal.png" />
+    <Content Include="Content\Images\logo_conasev2.png" />
+    <Content Include="Content\Images\nav-expand.png" />
+    <Content Include="Content\Images\search-icon.png" />
+    <Content Include="Content\Images\sort_both.png" />
+    <Content Include="Content\Scripts\Core\advanced-form-components.js" />
+    <Content Include="Content\Scripts\Core\all-chartjs.js" />
+    <Content Include="Content\Scripts\Core\bootbox.js" />
+    <Content Include="Content\Scripts\Core\bootstrap-select.js" />
+    <Content Include="Content\Scripts\Core\bootstrap-switch.js" />
+    <Content Include="Content\Scripts\Core\bootstrap-validator.min.js" />
+    <Content Include="Content\Scripts\Core\bootstrap.min.js" />
+    <Content Include="Content\Scripts\Core\common-scripts.js" />
+    <Content Include="Content\Scripts\Core\count.js" />
+    <Content Include="Content\Scripts\Core\draggable-portlet.js" />
+    <Content Include="Content\Scripts\Core\dynamic_table_init.js" />
+    <Content Include="Content\Scripts\Core\easy-pie-chart.js" />
+    <Content Include="Content\Scripts\Core\editable-table.js" />
+    <Content Include="Content\Scripts\Core\external-dragging-calendar.js" />
+    <Content Include="Content\Scripts\Core\flot-chart.js" />
+    <Content Include="Content\Scripts\Core\form-component.js" />
+    <Content Include="Content\Scripts\Core\form-image-crop.js" />
+    <Content Include="Content\Scripts\Core\form-validation-script.js" />
+    <Content Include="Content\Scripts\Core\ga.js" />
+    <Content Include="Content\Scripts\Core\gmaps-scripts.js" />
+    <Content Include="Content\Scripts\Core\gmaps.js" />
+    <Content Include="Content\Scripts\Core\gritter.js" />
+    <Content Include="Content\Scripts\Core\hover-dropdown.js" />
+    <Content Include="Content\Scripts\Core\jquery-1.11.1.js" />
+    <Content Include="Content\Scripts\Core\jquery-1.11.1.min.js" />
+    <Content Include="Content\Scripts\Core\jquery-2.2.3.min.js" />
+    <Content Include="Content\Scripts\Core\jquery-migrate-1.2.1.min.js" />
+    <Content Include="Content\Scripts\Core\jquery-ui-1.10.3.custom.min.js" />
+    <Content Include="Content\Scripts\Core\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="Content\Scripts\Core\jquery.auto-complete.js" />
+    <Content Include="Content\Scripts\Core\jquery.customSelect.min.js" />
+    <Content Include="Content\Scripts\Core\jquery.dcjqaccordion.2.7.js" />
+    <Content Include="Content\Scripts\Core\jquery.nicescroll.js" />
+    <Content Include="Content\Scripts\Core\jquery.numeric.js" />
+    <Content Include="Content\Scripts\Core\jquery.pulsate.min.js" />
+    <Content Include="Content\Scripts\Core\jquery.scrollTo.min.js" />
+    <Content Include="Content\Scripts\Core\jquery.sparkline.js" />
+    <Content Include="Content\Scripts\Core\jquery.steps.min.js" />
+    <Content Include="Content\Scripts\Core\jquery.stepy.js" />
+    <Content Include="Content\Scripts\Core\jquery.tagsinput.js" />
+    <Content Include="Content\Scripts\Core\jquery.ui.touch-punch.min.js" />
+    <Content Include="Content\Scripts\Core\jquery.validate.min.js" />
+    <Content Include="Content\Scripts\Core\jquery_1.10.2 old.js" />
+    <Content Include="Content\Scripts\Core\modernizr.custom.js" />
+    <Content Include="Content\Scripts\Core\morris-script.js" />
+    <Content Include="Content\Scripts\Core\nestable.js" />
+    <Content Include="Content\Scripts\Core\owl.carousel.js" />
+    <Content Include="Content\Scripts\Core\pulstate.js" />
+    <Content Include="Content\Scripts\Core\respond.min.js" />
+    <Content Include="Content\Scripts\Core\slidebars.min.js" />
+    <Content Include="Content\Scripts\Core\sliders.js" />
+    <Content Include="Content\Scripts\Core\smv-mp-principal-init.js" />
+    <Content Include="Content\Scripts\Core\smv-mp-principal.js" />
+    <Content Include="Content\Scripts\Core\sparkline-chart.js" />
+    <Content Include="Content\Scripts\Core\tasks.js" />
+    <Content Include="Content\Scripts\Core\toucheffects.js" />
+    <Content Include="Content\Scripts\Core\tree.js" />
+    <Content Include="Content\Scripts\smv-Session.js" />
+    <Content Include="Content\Scripts\soon\custom.js" />
+    <Content Include="Content\Scripts\soon\plugins.js" />
+    <Content Include="Content\Styles\Core\bootstrap-reset.css" />
+    <Content Include="Content\Styles\Core\bootstrap-select.css" />
+    <Content Include="Content\Styles\Core\bootstrap.min.css" />
+    <Content Include="Content\Styles\Core\slidebars.css" />
+    <Content Include="Content\Styles\Core\smv-estilos.css" />
+    <Content Include="Content\Styles\Core\style-responsive.css" />
+    <Content Include="Content\Styles\fonts\glyphicons-halflings-regular-2.html" />
+    <Content Include="Content\Styles\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="Content\Styles\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Styles\smv-seguridad.css" />
+    <Content Include="Content\Styles\smv-interoperabilidad.css" />
+    <Content Include="Content\Styles\Themes\images\animated-overlay.gif" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_flat_55_999999_40x100.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_flat_75_aaaaaa_40x100.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_glass_45_0078ae_1x400.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_glass_55_f8da4e_1x400.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_glass_75_79c9ec_1x400.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_gloss-wave_45_e14f1c_500x100.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_gloss-wave_50_6eac2c_500x100.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_gloss-wave_75_2191c0_500x100.png" />
+    <Content Include="Content\Styles\Themes\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Content\Styles\Themes\images\ui-icons_0078ae_256x240.png" />
+    <Content Include="Content\Styles\Themes\images\ui-icons_056b93_256x240.png" />
+    <Content Include="Content\Styles\Themes\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Content\Styles\Themes\images\ui-icons_e0fdff_256x240.png" />
+    <Content Include="Content\Styles\Themes\images\ui-icons_f5e175_256x240.png" />
+    <Content Include="Content\Styles\Themes\images\ui-icons_f7a50d_256x240.png" />
+    <Content Include="Content\Styles\Themes\images\ui-icons_fcd113_256x240.png" />
+    <Content Include="Content\Styles\Themes\jquery-ui-1.10.3.custom.css" />
+    <Content Include="Content\Styles\Themes\jquery-ui-1.10.3.custom.min.css" />
+    <None Include="Service References\ServicioIntermedio\SMV.disco" />
+    <None Include="Service References\ServicioIntermedio\configuration91.svcinfo" />
+    <None Include="Service References\ServicioIntermedio\configuration.svcinfo" />
+    <None Include="Service References\ServicioIntermedio\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="Dlls\ClosedXML.dll" />
+    <Content Include="Dlls\itextsharp.dll" />
+    <Content Include="Dlls\itextsharp.pdfa.dll" />
+    <Content Include="Dlls\itextsharp.xtra.dll" />
+    <Content Include="Dlls\P8Library.dll" />
+    <Content Include="Dlls\SignnetSolution.dll" />
+    <Content Include="Dlls\SignnetSolution_v2.dll" />
+    <Content Include="Views\Controles\ucwSalida.ascx" />
+    <Content Include="Views\Form\frmConsCarnetExtranj.aspx" />
+    <Content Include="Views\Form\frmConsultaLog.aspx" />
+    <Content Include="Views\Form\frmConsTituBienes.aspx" />
+    <Content Include="Views\Form\frmConsAntPenales.aspx" />
+    <Content Include="Views\Form\frmConsAntPoliciales.aspx" />
+    <Content Include="Views\Form\frmConsAntJudicial.aspx" />
+    <Content Include="Views\Form\frmConsValDNI.aspx" />
+    <Content Include="Views\Form\frmConsListAsientos.aspx" />
+    <Content Include="Views\Form\frmConsVigPoderes.aspx" />
+    <Content Include="Views\Form\frmConsGradYTitulos.aspx" />
+    <Content Include="Views\Form\frmMantenedor.aspx" />
+    <Content Include="Views\Form\frmVerAsiento.aspx" />
+    <Content Include="Views\Form\frmVerPDF.aspx" />
+    <Content Include="Views\Security\frmInicio.aspx" />
+    <Content Include="Views\Security\frmLogin.aspx" />
+    <Content Include="Views\Security\frmSession.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\FachadaSesion.vb" />
+    <Compile Include="Common\Globales.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Service References\AccesoSeguridad\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServicioIntermedio\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controles\ucwSalida.ascx.designer.vb">
+      <DependentUpon>ucwSalida.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controles\ucwSalida.ascx.vb">
+      <DependentUpon>ucwSalida.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsCarnetExtranj.aspx.designer.vb">
+      <DependentUpon>frmConsCarnetExtranj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsCarnetExtranj.aspx.vb">
+      <DependentUpon>frmConsCarnetExtranj.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsultaLog.aspx.designer.vb">
+      <DependentUpon>frmConsultaLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsultaLog.aspx.vb">
+      <DependentUpon>frmConsultaLog.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsTituBienes.aspx.designer.vb">
+      <DependentUpon>frmConsTituBienes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsTituBienes.aspx.vb">
+      <DependentUpon>frmConsTituBienes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsAntPenales.aspx.designer.vb">
+      <DependentUpon>frmConsAntPenales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsAntPenales.aspx.vb">
+      <DependentUpon>frmConsAntPenales.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsAntPoliciales.aspx.designer.vb">
+      <DependentUpon>frmConsAntPoliciales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsAntPoliciales.aspx.vb">
+      <DependentUpon>frmConsAntPoliciales.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsAntJudicial.aspx.designer.vb">
+      <DependentUpon>frmConsAntJudicial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsAntJudicial.aspx.vb">
+      <DependentUpon>frmConsAntJudicial.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsValDNI.aspx.designer.vb">
+      <DependentUpon>frmConsValDNI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsValDNI.aspx.vb">
+      <DependentUpon>frmConsValDNI.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsListAsientos.aspx.designer.vb">
+      <DependentUpon>frmConsListAsientos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsListAsientos.aspx.vb">
+      <DependentUpon>frmConsListAsientos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsVigPoderes.aspx.designer.vb">
+      <DependentUpon>frmConsVigPoderes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsVigPoderes.aspx.vb">
+      <DependentUpon>frmConsVigPoderes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmConsGradYTitulos.aspx.designer.vb">
+      <DependentUpon>frmConsGradYTitulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmConsGradYTitulos.aspx.vb">
+      <DependentUpon>frmConsGradYTitulos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmMantenedor.aspx.designer.vb">
+      <DependentUpon>frmMantenedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmMantenedor.aspx.vb">
+      <DependentUpon>frmMantenedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmVerAsiento.aspx.designer.vb">
+      <DependentUpon>frmVerAsiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmVerAsiento.aspx.vb">
+      <DependentUpon>frmVerAsiento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Form\frmVerPDF.aspx.designer.vb">
+      <DependentUpon>frmVerPDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form\frmVerPDF.aspx.vb">
+      <DependentUpon>frmVerPDF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Security\frmInicio.aspx.designer.vb">
+      <DependentUpon>frmInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Security\frmInicio.aspx.vb">
+      <DependentUpon>frmInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Security\frmLogin.aspx.designer.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Security\frmLogin.aspx.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Security\frmSession.aspx.designer.vb">
+      <DependentUpon>frmSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Security\frmSession.aspx.vb">
+      <DependentUpon>frmSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\mpPrincipal.Master.designer.vb">
+      <DependentUpon>mpPrincipal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\mpPrincipal.Master.vb">
+      <DependentUpon>mpPrincipal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Views\Reportes\rptInpeAntPenales.rdlc" />
+    <Content Include="Views\Reportes\rptMigraCarnetExt.rdlc" />
+    <Content Include="Views\Reportes\rptMigraCarnetExt_Err.rdlc" />
+    <Content Include="Views\Reportes\rptMininterAntPol.rdlc" />
+    <Content Include="Views\Reportes\rptPJAntJudicial.rdlc" />
+    <Content Include="Views\Reportes\rptReniecValDNI.rdlc" />
+    <Content Include="Views\Reportes\rptReniecValDNI_Err.rdlc" />
+    <Content Include="Views\Reportes\rptSunarpListAsiento.rdlc" />
+    <Content Include="Views\Reportes\rptSunarpListAsiento_Err.rdlc" />
+    <Content Include="Views\Reportes\rptSunarpTitBien.rdlc" />
+    <Content Include="Views\Reportes\rptSunarpTitBien_Err.rdlc" />
+    <Content Include="Views\Reportes\rptSunarpVigPod.rdlc" />
+    <Content Include="Views\Reportes\rptSunarpVigPod_Err.rdlc" />
+    <Content Include="Views\Reportes\rptSuneduGradYTit.rdlc" />
+    <Content Include="Views\Reportes\rptSuneduGradYTit_Err.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\AccesoSeguridad\SeguridadService.wsdl" />
+    <Content Include="Service References\AccesoSeguridad\SMV.Interoperabilidad.Web.AccesoSeguridad.ListarOpUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\AccesoSeguridad\SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarAccesoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\AccesoSeguridad\SMV.Interoperabilidad.Web.AccesoSeguridad.RegistrarSalidaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\AccesoSeguridad\SMV.Interoperabilidad.Web.AccesoSeguridad.ValidarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\AccesoSeguridad\SMV.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Views\Shared\mpPrincipal.Master" />
+    <None Include="Service References\ServicioIntermedio\ServiceIO.wsdl" />
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.InpeAntecedentesPenalesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.MigracionesCarnetExtranjeriaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.MininterAntecedentesPolicialesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.PJAntecedentesJudicialesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.ReniecConsultaDNIResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.SunarpListaAsientoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.SunarpTitularidadBienesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.SunarpVigenciaPoderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.SuneduGradosTitulosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioIntermedio\SMV.Interoperabilidad.Web.ServicioIntermedio.SunarpVerImagenAsientoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\ServicioIntermedio\SMV.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioIntermedio\SMV1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioIntermedio\SMV2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServicioIntermedio\SMV3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AccesoSeguridad\" />
+    <WCFMetadataStorage Include="Service References\ServicioIntermedio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Temporal\Descargas_Tmp\" />
+    <Folder Include="Temporal\Firmados_PDF\" />
+    <Folder Include="Temporal\Generados_PDF\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54736</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54736/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

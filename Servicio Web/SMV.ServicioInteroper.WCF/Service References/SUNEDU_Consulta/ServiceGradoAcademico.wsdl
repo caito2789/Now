@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://main.wssergraacademico.ongei.gob.pe/" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soa="http://soa.com/uri/products/wsdlext/1.0" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" targetNamespace="http://main.wssergraacademico.ongei.gob.pe/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="unqualified" targetNamespace="http://main.wssergraacademico.ongei.gob.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getGradoAcademico" type="tns:getGradoAcademico" />
+      <xs:element name="getGradoAcademicoResponse" type="tns:getGradoAcademicoResponse" />
+      <xs:complexType name="getGradoAcademico">
+        <xs:sequence>
+          <xs:element name="usuarioType" type="tns:UsuarioType" />
+          <xs:element name="operacionType" type="tns:OperacionType" />
+          <xs:element name="dni" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="UsuarioType">
+        <xs:sequence>
+          <xs:element name="usuario" type="xs:string" />
+          <xs:element name="clave" type="xs:string" />
+          <xs:element name="idEntidad" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="OperacionType">
+        <xs:sequence>
+          <xs:element name="fecha" type="xs:string" />
+          <xs:element name="hora" type="xs:string" />
+          <xs:element name="mac_wsServer" type="xs:string" />
+          <xs:element name="ip_wsServer" type="xs:string" />
+          <xs:element name="ip_wsUser" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getGradoAcademicoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:RespuestaGradoAcademico" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RespuestaGradoAcademico">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fecSunedu" type="xs:string" />
+          <xs:element minOccurs="0" name="horSunedu" type="xs:string" />
+          <xs:element minOccurs="0" name="cGenerico" type="xs:string" />
+          <xs:element minOccurs="0" name="dGenerica" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listaGradoAcademico" nillable="true" type="tns:gradoAcademico" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="gradoAcademico">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="abreviaturaTitulo" type="xs:string" />
+          <xs:element minOccurs="0" name="apellidoMaterno" type="xs:string" />
+          <xs:element minOccurs="0" name="apellidoPaterno" type="xs:string" />
+          <xs:element minOccurs="0" name="especialidad" type="xs:string" />
+          <xs:element minOccurs="0" name="nombres" type="xs:string" />
+          <xs:element minOccurs="0" name="nroDocumento" type="xs:string" />
+          <xs:element minOccurs="0" name="pais" type="xs:string" />
+          <xs:element minOccurs="0" name="tipoDocumento" type="xs:string" />
+          <xs:element minOccurs="0" name="tituloProfesional" type="xs:string" />
+          <xs:element minOccurs="0" name="universidad" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getGradoAcademicoResponse">
+    <wsdl:part name="parameters" element="tns:getGradoAcademicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGradoAcademico">
+    <wsdl:part name="parameters" element="tns:getGradoAcademico" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceGradoAcademico">
+    <wsdl:operation name="getGradoAcademico">
+      <wsdl:input name="getGradoAcademico" message="tns:getGradoAcademico" />
+      <wsdl:output name="getGradoAcademicoResponse" message="tns:getGradoAcademicoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceGradoAcademicoServiceSoapBinding" type="tns:ServiceGradoAcademico">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getGradoAcademico">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getGradoAcademico">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getGradoAcademicoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceGradoAcademicoService_vs0">
+    <wsdl:port name="ServiceGradoAcademicoPortS" binding="tns:ServiceGradoAcademicoServiceSoapBinding">
+      <soap:address location="https://10.0.1.112:9953/ServiceGradoAcademicoS" />
+    </wsdl:port>
+    <wsdl:port name="ServiceGradoAcademicoPort" binding="tns:ServiceGradoAcademicoServiceSoapBinding">
+      <soap:address location="http://10.0.1.112:9951/ServiceGradoAcademico" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

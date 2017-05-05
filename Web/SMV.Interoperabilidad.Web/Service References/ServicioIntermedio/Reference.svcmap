@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f83183a1-86db-41d3-9cc6-f3b3c0e405d7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SMV.xsd" MetadataType="Schema" ID="16bdcb6a-8da8-4a8c-b423-1487f8ddd2a3" SourceId="1" SourceUrl="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd2" />
+    <MetadataFile FileName="SMV1.xsd" MetadataType="Schema" ID="dafdd3ac-20be-4c33-ac2c-43ba8c2031f3" SourceId="1" SourceUrl="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceIO.wsdl" MetadataType="Wsdl" ID="c6699530-f521-40bf-9820-fa5458872d90" SourceId="1" SourceUrl="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?wsdl" />
+    <MetadataFile FileName="SMV2.xsd" MetadataType="Schema" ID="35fb7207-c955-4d68-89b9-cf764f4c831e" SourceId="1" SourceUrl="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd3" />
+    <MetadataFile FileName="SMV.disco" MetadataType="Disco" ID="4aac7452-3e92-4a1c-84a8-99a68a39154c" SourceId="1" SourceUrl="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?disco" />
+    <MetadataFile FileName="SMV3.xsd" MetadataType="Schema" ID="2f8d4d1c-d34e-4985-b4a7-252da40e6d83" SourceId="1" SourceUrl="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

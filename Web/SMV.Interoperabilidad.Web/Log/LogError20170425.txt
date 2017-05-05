@@ -1,0 +1,42 @@
+(25/04/2017 05:53:09 p.m.) Message:
+Se ha producido un error durante el procesamiento local de informes.
+(25/04/2017 05:53:09 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 387
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 55
+----------------------------------------------------------------------------
+(25/04/2017 05:53:28 p.m.) Message:
+Se ha producido un error durante el procesamiento local de informes.
+(25/04/2017 05:53:28 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 387
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 55
+----------------------------------------------------------------------------
+(25/04/2017 05:56:51 p.m.) Message:
+Se ha producido un error durante el procesamiento local de informes.
+(25/04/2017 05:56:51 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 387
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 55
+----------------------------------------------------------------------------
+(25/04/2017 06:06:58 p.m.) Message:
+Se ha producido un error durante el procesamiento local de informes.
+(25/04/2017 06:06:58 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 387
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 55
+----------------------------------------------------------------------------
+(25/04/2017 06:15:12 p.m.) Message:
+Se ha producido un error durante el procesamiento local de informes.
+(25/04/2017 06:15:12 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 387
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 55
+----------------------------------------------------------------------------
+(25/04/2017 06:16:46 p.m.) Message:
+Se ha producido un error durante el procesamiento local de informes.
+(25/04/2017 06:16:46 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 387
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 55
+----------------------------------------------------------------------------
+(25/04/2017 06:17:50 p.m.) Message:
+Se ha producido un error durante el procesamiento local de informes.
+(25/04/2017 06:17:50 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 387
+   en SMV.Interoperabilidad.Web.frmConsAntPoliciales.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsAntPoliciales.aspx.vb:línea 55
+----------------------------------------------------------------------------

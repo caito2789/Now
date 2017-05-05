@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:intf="http://endpoint.wsantjudiciales.inpe.gob.pe" xmlns:wsmex="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soa="http://soa.com/uri/products/wsdlext/1.0" xmlns:impl="http://endpoint.wsantjudiciales.inpe.gob.pe" targetNamespace="http://endpoint.wsantjudiciales.inpe.gob.pe" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://endpoint.wsantjudiciales.inpe.gob.pe">
+      <xsd:element name="getAntecedenteJudicial">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="apepat" type="xsd:string" />
+            <xsd:element name="apemat" type="xsd:string" />
+            <xsd:element name="nombres" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getAntecedenteJudicialResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="getAntecedenteJudicialReturn" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getAntecedenteJudicialRequest">
+    <wsdl:part name="parameters" element="impl:getAntecedenteJudicial" />
+  </wsdl:message>
+  <wsdl:message name="getAntecedenteJudicialResponse">
+    <wsdl:part name="parameters" element="impl:getAntecedenteJudicialResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceAntecedenteJudicial">
+    <wsdl:operation name="getAntecedenteJudicial">
+      <wsdl:input name="getAntecedenteJudicialRequest" message="impl:getAntecedenteJudicialRequest" />
+      <wsdl:output name="getAntecedenteJudicialResponse" message="impl:getAntecedenteJudicialResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceAntecedenteJudicialSoapBinding" type="impl:ServiceAntecedenteJudicial">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAntecedenteJudicial">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getAntecedenteJudicialRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getAntecedenteJudicialResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceAntecedenteJudicialService_vs0">
+    <wsdl:port name="ServiceAntecedenteJudicialPortS" binding="impl:ServiceAntecedenteJudicialSoapBinding">
+      <wsdlsoap:address location="https://10.0.1.112:9953/ServiceAntecedenteJudicialS" />
+    </wsdl:port>
+    <wsdl:port name="ServiceAntecedenteJudicialPort" binding="impl:ServiceAntecedenteJudicialSoapBinding">
+      <wsdlsoap:address location="http://10.0.1.112:9951/ServiceAntecedenteJudicial" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

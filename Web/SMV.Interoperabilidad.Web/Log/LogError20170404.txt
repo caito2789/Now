@@ -1,0 +1,6 @@
+(04/04/2017 05:45:28 p.m.) Message:
+Subproceso anulado.
+(04/04/2017 05:45:28 p.m.) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsultaLog.ExportarExcel() en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 416
+   en SMV.Interoperabilidad.Web.frmConsultaLog.btnExportarExcel_Click(Object sender, EventArgs e) en D:\Dastola\SMV\Proyectos\Interoperabilidad\Fuentes\20170012\Fuentes_Web\SMV.Interoperabilidad.Web\Views\Form\frmConsultaLog.aspx.vb:línea 50
+----------------------------------------------------------------------------

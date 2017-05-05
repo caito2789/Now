@@ -1,0 +1,56 @@
+<publishData>
+  <publishTarget publishUrl="\\10.0.100.83\SMV.Interop.WCF\">
+    <file relUrl="bin/SMV.ServicioInteroper.BE.pdb" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="bin/SMV.ServicioInteroper.BE.xml" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.xml" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.xml" publishTime="04/19/2017 08:34:57" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.dll" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.dll" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="bin/Oracle.DataAccess.dll" publishTime="08/31/2012 06:26:22" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.dll.config" publishTime="04/19/2017 08:33:33" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.pdb" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.pdb" publishTime="04/19/2017 08:34:57" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.pdb" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="bin/SMV.ServicioInteroper.BE.dll" publishTime="04/19/2017 08:34:56" />
+    <file relUrl="SMV.ServicioInteroper.WCF.ServiceIO.svc" publishTime="04/19/2017 08:35:07" />
+    <file relUrl="Web.config" publishTime="04/19/2017 08:33:33" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.dll" publishTime="04/19/2017 08:34:57" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.xml" publishTime="04/19/2017 08:34:56" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\SMV.Interop.WCF\">
+    <file relUrl="bin/SMV.ServicioInteroper.BE.pdb" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="bin/SMV.ServicioInteroper.BE.xml" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.xml" publishTime="04/05/2017 09:59:00" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.dll" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="bin/SMV.ServicioInteroper.BE.dll" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.dll" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="bin/Oracle.DataAccess.dll" publishTime="08/31/2012 06:26:22" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.dll.config" publishTime="04/05/2017 09:58:53" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.pdb" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.pdb" publishTime="04/05/2017 09:59:00" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.pdb" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.xml" publishTime="04/05/2017 09:45:51" />
+    <file relUrl="SMV.ServicioInteroper.WCF.ServiceIO.svc" publishTime="04/05/2017 09:59:01" />
+    <file relUrl="Web.config" publishTime="04/05/2017 09:58:53" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.dll" publishTime="04/05/2017 09:59:00" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.xml" publishTime="04/05/2017 09:45:51" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\Publish\">
+    <file relUrl="bin/SMV.ServicioInteroper.BE.pdb" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="bin/SMV.ServicioInteroper.BE.xml" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.xml" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.xml" publishTime="04/03/2017 12:46:33" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.dll" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.dll" publishTime="04/03/2017 12:46:33" />
+    <file relUrl="bin/Oracle.DataAccess.dll" publishTime="08/31/2012 06:26:22" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.dll.config" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.pdb" publishTime="04/03/2017 12:46:33" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.pdb" publishTime="04/03/2017 12:46:33" />
+    <file relUrl="bin/SMV.ServicioInteroper.DA.pdb" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="bin/SMV.ServicioInteroper.BE.dll" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="SMV.ServicioInteroper.WCF.ServiceIO.svc" publishTime="04/03/2017 12:46:49" />
+    <file relUrl="Web.config" publishTime="04/03/2017 12:46:32" />
+    <file relUrl="bin/SMV.ServicioInteroper.WCF.dll" publishTime="04/03/2017 12:46:33" />
+    <file relUrl="bin/SMV.ServicioInteroper.BL.xml" publishTime="04/03/2017 12:46:33" />
+  </publishTarget>
+</publishData>

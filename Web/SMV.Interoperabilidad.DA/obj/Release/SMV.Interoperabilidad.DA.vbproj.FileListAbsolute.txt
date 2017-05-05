@@ -1,0 +1,13 @@
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\bin\Release\SMV.Interoperabilidad.DA.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\bin\Release\SMV.Interoperabilidad.DA.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\bin\Release\SMV.Interoperabilidad.DA.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\bin\Release\Oracle.DataAccess.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\bin\Release\SMV.Interoperabilidad.BE.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\bin\Release\SMV.Interoperabilidad.BE.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\bin\Release\SMV.Interoperabilidad.BE.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\obj\Release\SMV.Interoperabilidad.DA.vbprojResolveAssemblyReference.cache
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\obj\Release\SMV.Interoperabilidad.DA.Resources.resources
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\obj\Release\SMV.Interoperabilidad.DA.vbproj.GenerateResource.Cache
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\obj\Release\SMV.Interoperabilidad.DA.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\obj\Release\SMV.Interoperabilidad.DA.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.DA\obj\Release\SMV.Interoperabilidad.DA.pdb

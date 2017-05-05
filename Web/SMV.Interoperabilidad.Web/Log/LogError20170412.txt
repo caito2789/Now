@@ -1,0 +1,6 @@
+(12/04/2017 17:10:55) Message:
+El proceso no puede obtener acceso al archivo 'C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Temporal\Generados_PDF\Reporte_SUNARP_ListaAsientos_120420171764.pdf.pdf' porque está siendo utilizado en otro proceso.
+(12/04/2017 17:10:55) StackTrace:
+   en SMV.Interoperabilidad.Web.frmConsListAsientos.ExportarPDF() en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsListAsientos.aspx.vb:línea 554
+   en SMV.Interoperabilidad.Web.frmConsListAsientos.btnExportarPDF_Click(Object sender, EventArgs e) en C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Web\SMV.Interoperabilidad.Web\Views\Form\frmConsListAsientos.aspx.vb:línea 107
+----------------------------------------------------------------------------

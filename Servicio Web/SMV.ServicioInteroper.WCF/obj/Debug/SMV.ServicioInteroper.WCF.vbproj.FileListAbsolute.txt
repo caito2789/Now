@@ -1,0 +1,40 @@
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.dll.config
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.dll
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.pdb
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.xml
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BE.dll
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BL.dll
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.DA.dll
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\Oracle.DataAccess.dll
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BE.pdb
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BE.xml
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BL.pdb
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BL.xml
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.DA.pdb
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.DA.xml
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.vbprojResolveAssemblyReference.cache
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.Resources.resources
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.vbproj.GenerateResource.Cache
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.dll
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.xml
+D:\Proyectos_SWF\Interoperabilidad\Fuentes\SMV.ServicioInteroper\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.dll.config
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.WCF.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BE.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BL.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.DA.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BE.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BE.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BL.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.BL.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.DA.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\SMV.ServicioInteroper.DA.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.vbprojResolveAssemblyReference.cache
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.Resources.resources
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.vbproj.GenerateResource.Cache
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.dll
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.xml
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\obj\Debug\SMV.ServicioInteroper.WCF.pdb
+C:\_tfs\SMV_CRIT\TP_Interoperabilidad\Desa\Solucion\Servicio Web\SMV.ServicioInteroper.WCF\bin\Debug\Oracle.DataAccess.dll

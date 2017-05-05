@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceIO" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SMV.ServicioInteroper.WCF" />
+      <xsd:import schemaLocation="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/SMV.ServicioInteroper.BE" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceIO_ReniecConsultaDNI_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReniecConsultaDNI" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_ReniecConsultaDNI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReniecConsultaDNIResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_InpeAntecedentesPenales_InputMessage">
+    <wsdl:part name="parameters" element="tns:InpeAntecedentesPenales" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_InpeAntecedentesPenales_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InpeAntecedentesPenalesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_PJAntecedentesJudiciales_InputMessage">
+    <wsdl:part name="parameters" element="tns:PJAntecedentesJudiciales" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_PJAntecedentesJudiciales_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PJAntecedentesJudicialesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_MininterAntecedentesPoliciales_InputMessage">
+    <wsdl:part name="parameters" element="tns:MininterAntecedentesPoliciales" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_MininterAntecedentesPoliciales_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MininterAntecedentesPolicialesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpTitularidadBienes_InputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpTitularidadBienes" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpTitularidadBienes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpTitularidadBienesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpVigenciaPoder_InputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpVigenciaPoder" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpVigenciaPoder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpVigenciaPoderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpListaAsiento_InputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpListaAsiento" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpListaAsiento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpListaAsientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpVerImagenAsiento_InputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpVerImagenAsiento" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SunarpVerImagenAsiento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SunarpVerImagenAsientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SuneduGradosTitulos_InputMessage">
+    <wsdl:part name="parameters" element="tns:SuneduGradosTitulos" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_SuneduGradosTitulos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SuneduGradosTitulosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_MigracionesCarnetExtranjeria_InputMessage">
+    <wsdl:part name="parameters" element="tns:MigracionesCarnetExtranjeria" />
+  </wsdl:message>
+  <wsdl:message name="IServiceIO_MigracionesCarnetExtranjeria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MigracionesCarnetExtranjeriaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceIO">
+    <wsdl:operation name="ReniecConsultaDNI">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/ReniecConsultaDNI" message="tns:IServiceIO_ReniecConsultaDNI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/ReniecConsultaDNIResponse" message="tns:IServiceIO_ReniecConsultaDNI_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InpeAntecedentesPenales">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/InpeAntecedentesPenales" message="tns:IServiceIO_InpeAntecedentesPenales_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/InpeAntecedentesPenalesResponse" message="tns:IServiceIO_InpeAntecedentesPenales_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PJAntecedentesJudiciales">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/PJAntecedentesJudiciales" message="tns:IServiceIO_PJAntecedentesJudiciales_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/PJAntecedentesJudicialesResponse" message="tns:IServiceIO_PJAntecedentesJudiciales_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MininterAntecedentesPoliciales">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/MininterAntecedentesPoliciales" message="tns:IServiceIO_MininterAntecedentesPoliciales_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/MininterAntecedentesPolicialesResponse" message="tns:IServiceIO_MininterAntecedentesPoliciales_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SunarpTitularidadBienes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/SunarpTitularidadBienes" message="tns:IServiceIO_SunarpTitularidadBienes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/SunarpTitularidadBienesResponse" message="tns:IServiceIO_SunarpTitularidadBienes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SunarpVigenciaPoder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/SunarpVigenciaPoder" message="tns:IServiceIO_SunarpVigenciaPoder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/SunarpVigenciaPoderResponse" message="tns:IServiceIO_SunarpVigenciaPoder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SunarpListaAsiento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/SunarpListaAsiento" message="tns:IServiceIO_SunarpListaAsiento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/SunarpListaAsientoResponse" message="tns:IServiceIO_SunarpListaAsiento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SunarpVerImagenAsiento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/SunarpVerImagenAsiento" message="tns:IServiceIO_SunarpVerImagenAsiento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/SunarpVerImagenAsientoResponse" message="tns:IServiceIO_SunarpVerImagenAsiento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SuneduGradosTitulos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/SuneduGradosTitulos" message="tns:IServiceIO_SuneduGradosTitulos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/SuneduGradosTitulosResponse" message="tns:IServiceIO_SuneduGradosTitulos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MigracionesCarnetExtranjeria">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceIO/MigracionesCarnetExtranjeria" message="tns:IServiceIO_MigracionesCarnetExtranjeria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceIO/MigracionesCarnetExtranjeriaResponse" message="tns:IServiceIO_MigracionesCarnetExtranjeria_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="interoper" type="tns:IServiceIO">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ReniecConsultaDNI">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/ReniecConsultaDNI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InpeAntecedentesPenales">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/InpeAntecedentesPenales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PJAntecedentesJudiciales">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/PJAntecedentesJudiciales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MininterAntecedentesPoliciales">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/MininterAntecedentesPoliciales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SunarpTitularidadBienes">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/SunarpTitularidadBienes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SunarpVigenciaPoder">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/SunarpVigenciaPoder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SunarpListaAsiento">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/SunarpListaAsiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SunarpVerImagenAsiento">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/SunarpVerImagenAsiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SuneduGradosTitulos">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/SuneduGradosTitulos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MigracionesCarnetExtranjeria">
+      <soap:operation soapAction="http://tempuri.org/IServiceIO/MigracionesCarnetExtranjeria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceIO">
+    <wsdl:port name="interoper" binding="tns:interoper">
+      <soap:address location="http://srv2008.conasev.gob.pe/ServicioInter/SMV.ServicioInteroper.WCF.ServiceIO.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

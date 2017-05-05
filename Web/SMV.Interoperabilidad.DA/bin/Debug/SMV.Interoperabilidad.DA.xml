@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMV.Interoperabilidad.DA
+</name>
+</assembly>
+<members>
+<member name="P:SMV.Interoperabilidad.DA.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMV.Interoperabilidad.DA.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMV.Interoperabilidad.DA.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SMV.Interoperabilidad.DA.SunarpDA.RegistrarLog_VP(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Vigencia de Poder.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMV.Interoperabilidad.DA.SunarpDA.RegistrarLog_TB(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Titularidad de Bienes de consulta.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMV.Interoperabilidad.DA.SunarpDA.RegistrarLog_LA(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Lista de Asientos.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMV.Interoperabilidad.DA.SunarpDA.RegistrarLog_VImg(SMV.Interoperabilidad.BE.SunarpBE)">
+	<summary>
+ SUNARP - Ver Asiento.
+ </summary>
+	<param name="objFiltro"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

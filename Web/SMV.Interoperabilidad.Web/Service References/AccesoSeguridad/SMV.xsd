@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ValidarUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="request" type="tns:ValidarUsuarioRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ValidarUsuarioRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoAplicacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TipoUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NombreUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Password" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="TipoValidacion" type="tns:TipoValidacion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="TipoValidacion">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Windows" />
+      <xs:enumeration value="Forms" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ValidarUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ValidarUsuarioResult" type="tns:ValidarUsuarioResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ValidarUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Correcto" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MensajeError" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario" type="tns:UsuarioBE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UsuarioBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NombreUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UsuarioLogon" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UsuarioPassword" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CorreoElectronico" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TipoUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EstadoUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoGerencia" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoPerfil" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DescripcionPerfil" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaUsuarioPerfil" type="tns:ArrayOfUsuarioPerfilBE" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ListaUsuarioPerfilOpcion" type="tns:ArrayOfUsuarioPerfilOpcionBE" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EstacionUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UsuarioNT" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DataSetUsuarioPerfilOpcion">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="xs:schema" />
+            <xs:any />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoAplicacion" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="FlagResetClave" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfUsuarioPerfilBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioPerfilBE" nillable="true" type="tns:UsuarioPerfilBE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UsuarioPerfilBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoAplicacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoPerfil" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NombreUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DescripcionPerfil" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ArrayOfUsuarioPerfilOpcionBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioPerfilOpcionBE" nillable="true" type="tns:UsuarioPerfilOpcionBE" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="UsuarioPerfilOpcionBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoAplicacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoPerfil" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoOpcion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoSecuencial" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Denominacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NombrePagina" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TipoOpcion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TipoPublico" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TipoAcceso" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RegistrarAcceso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="request" type="tns:RegistrarAccesoRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="RegistrarAccesoRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoAplicacion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoOpcion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoUsuario" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DireccionIP" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NombrePC" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RegistrarAccesoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="RegistrarAccesoResult" type="tns:RegistrarAccesoResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="RegistrarAccesoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Correcto" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MensajeError" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="NCOUTIL" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RegistrarSalida">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="request" type="tns:RegistrarSalidaRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="RegistrarSalidaRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="NCOUTIL" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RegistrarSalidaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="RegistrarSalidaResult" type="tns:RegistrarSalidaResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="RegistrarSalidaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Correcto" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MensajeError" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ListarOpUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="request" type="tns:ListarOpUsuarioRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ListarOpUsuarioRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="CodigoTransfSesion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ListarOpUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="ListarOpUsuarioResult" type="tns:ListarOpUsuarioResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ListarOpUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Correcto" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MensajeError" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Usuario" type="tns:UsuarioBE" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
